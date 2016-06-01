@@ -34,14 +34,25 @@ In the nomenclature used at LHC and in this thesis, electrons and muons are call
 
 %However, given that so far only 3.2 fb\textsuperscript{-1} of integrated luminosity has been achieved at $\sqrt{s} = 13$ TeV.
 
-\subsection{Search methods}
+\subsection{Overview of search methods at LHC}
 Detecting new physics events at LHC requires using computational and statistical methods that can deal with the type of information a particle accelerator produces. The data is initially collected using triggers corresponding to the type of events under analysis. Each event has a large number of physical characteristics such as momentum, energy, mass, multiplicities, etc. The numbers representing them are all stored in a data structure which then can be accessed, modified and analysed using software tools. 
 
 The cornerstone of all accelerator physics analyses is the correct estimation of background events. All background events represent physics that is already known and that has some similar or identical features with the processes we wish to study. For instance, this thesis focusses on the  reactions that have precisely two oppositely charged leptons in their final states. A number of processes well described by the standard model share this characteristic and therefore will form the background. 
 
-The presence or absence of a new particle also can reveal itself in a number of ways. The case that is the easiest to detect is when there is an abnormality in mass distribution, such as the case with Higgs particle discovery. The peak in mass distribution of diphoton events constituted a significant excess over SM predictions \citep{chatrchyan2012observation,Aad:2012tfa}. 
+The task of correctly identifying background is therefore crucial in the process of searches for new physics events. Monte Carlo (MC) simulations are used to generate a sample according to a probability distribution of a particular process. In this thesis MC simulated data samples are used to model background events along with SUSY signal events. All the samples include events that result in dileptonic decays. 
 
-This method does not work for SUSY particles and other techniques have to be used. Standard search techniques involve defining \textbf{signal regions} in data distributions that are sensitive to possible SUSY signals and looking whether there is a significant excess over SM background predictions in these regions. Another method is looking for abnormal tails in distributions that are not in agreement with SM predictions.   
+The real data is then overlaid on the simulated background to see whether there is a disagreement between them. If there is a disagreement that is significantly large that can lead to new discoveries. The presence of a new particle can reveal itself in a number of ways. The easiest case to detect is finding an abnormality in mass distribution, as was the case with the discovery of the Higgs. The narrow peak over a smooth line in mass distribution of diphoton events constituted a significant excess over SM predictions and was in agreement with theoretical predictions \citep{chatrchyan2012observation,Aad:2012tfa}. 
+
+\begin{figure}
+	\centering
+	\captionsetup{width=0.8\textwidth}
+	\includegraphics[scale=0.2]{Chap3/figaux_004a}
+	\caption[width=0.8\textwidth]{Invariant mass distribution of diphoton 				candidates for the combined $\sqrt{s}$ = 7 TeV and $\sqrt{s}$ = 8 TeV 			data samples. The mass of the Higgs corresponds to the peak at 126.5 				GeV \citep{Aad:2012tfa}.}
+\end{figure}
+
+Unfortunately, this method does not work well for SUSY particles and other techniques have to be used. Standard search techniques involve defining \textbf{signal regions} in data distributions that are sensitive to possible SUSY signals and looking whether there is a significant excess over SM background predictions in these regions. Another method is looking for abnormal tails in distributions of different variables that are not in agreement with SM predictions. These variables will be discussed in the next section.
+
+\subsection{Variables used in searches for supersymmetry}
 
 
-%The overall goal is to have a procedure that loops over all events and selects those that are of interest for further analysis. 
+ 

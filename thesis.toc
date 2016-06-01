@@ -1,5 +1,5 @@
-\contentsline {chapter}{ABSTRACT}{3}{Doc-Start}
-\mbox { }\newline \noindent {\bf CHAPTER}\newline 
+\contentsline {chapter}{ABSTRACT}{iii}{Doc-Start}
+\mbox { }\newline \noindent {\bf CHAPTERS}\newline 
 \hbox { }
 \hbox { }
 \contentsline {chap}{\numberline {\hbox { }\hfill \bf I.\hspace {5pt}}{\bf Introduction}}{1}{chapter.1}
@@ -17,4 +17,5 @@
 \contentsline {chap}{\numberline {\hbox { }\hfill \bf III.\hspace {5pt}}{\bf Search for supersymmetry at LHC}}{11}{chapter.3}
 \hbox { }
 \contentsline {section}{\numberline {3.1}Introduction}{11}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Search methods}{14}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}Overview of search methods at LHC}{14}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Variables used in searches for supersymmetry}{15}{subsection.3.1.2}
