@@ -1,0 +1,133 @@
+\section{The Standard Model}
+\label{SM}
+\subsection{The Standard Model overview}
+The underlying theory of modern High Energy Physics is the Standard Model (SM). This theory has been developed in the second half of the 20th century with contirubutions from many scientists and it is a very succeful representation of the world on subatomic level.
+SM classifies all known subatomic particles into specific categories and provides the description of the interactions between them. 
+
+In SM there are two main types of fermions (1/2-spin particles) known as quarks and leptons. Each family has three generations with each consecutive generation being heavier than the previous. The lightest fermions (up \& down quarks + electron)
+are stable and constitute ordinary matter. The interactions between fermions are mediated through the exchange of force carrier particles known as gauge bosons (see Tab.~\ref{tab:SM}). The final piece in SM is the Higgs boson and it gives mass to other fundamental particles. All bosons possess and integer spin \citep{martin2006nuclear}. 
+\begin{table}[]
+\centering
+\label{my-label}
+\begin{tabular}{cccc | ll}
+\textbf{Fermion}                  & \multicolumn{3}{c}{\textbf{Generations}} & \multicolumn{2}{c}{\textbf{Bosons}} \\ \hline
+\multirow{2}{*}{\textbf{Leptons}} & $e$        & $\mu$        & $\tau$       & $Z$            & Higgs           \\
+                                  & $\nu_{e}$  & $\nu_{\mu}$  & $\nu_{\tau}$ & $W^{\pm}$            &                 \\ 
+\multirow{2}{*}{\textbf{Quarks}}  & $u$        & $c$          & $t$          & photon            &                 \\
+                                  & $d$        & $s$          & $b$          & gluon             &          \\ \hline      
+\end{tabular}
+\caption{The Standard Model particles}
+\label{tab:SM}
+\end{table}
+
+The mathematical representation of SM is built within the broader frame of Group Theory. Employing official terminology, SM has the symmetry group U(1)$_{\text{Y}}\times$SU(2)$_{\text{L}}\times$SU(3). The SU(3) symmetry group generates strong interactions, that describe processes involving quarks and gluons. The U(1)$_{\text{Y}}\times$SU(2)$_{\text{L}}$ generates electroweak interactions. At the energies below 100 GeV, however, the single electroweak interaction is broken into the weak and electromagnetic varieties with the symmetry group U(1)$_{\text{em}}$. 
+The unification of these two types was the result of efforts by Glashow, Weinberg and Salam \citep{Glashow:1961tr,weinberg1967model,salam1968elementary}. 
+The weak interaction processes involve fermions and are mediated by electrically charged W\textsuperscript{$\pm$} for charged processes and chargeless Z gauge bosons for neutral ones. Electromagnetic force is mediated by photons and only involves electrically charged particles. 
+
+Above the unification energy of 100 GeV,and thus before the spontaneous electroweak symmetry breaking  through Higgs mechanism \citep{englert1964broken, higgs1964broken}, the gauge bosons are different. There are three W bosons, denoted W\textsuperscript{1}, W\textsuperscript{2}, W\textsuperscript{3} corrseponding to SU(2)$_{\text{L}}$ part of the group and one B boson corresponding to U(1)$_{\text{Y}}$. 
+All the electroweak bosons are massless, and acquire mass by coupling to the Higgs field in the process of symmetry breaking.  
+
+\subsection{The Standard Model limitations}
+
+The SM predictions have been successfully tested in particle accelerator experiments, and the final confirmation came with the discovery of the Higgs boson in 2012 - a true scientific breakthrough \citep{Aad:2012tfa}\citep{chatrchyan2012observation}. This was the last missing piece of experimental evidence needed for the full validation of SM. The experiments that led to this discovery were conducted at CERN’s Large Hadron Collider (LHC) in run-1 proton-proton collisions at centre-of-mass energy $\sqrt{s}=$7 and the later upgrade to 8 TeV.  
+Despite the fact that SM has proven to be an extremely precise and successful theory there are some caveats for which it does not provide  adequate solutions. 
+
+One of the inconsistencies within SM is the so-called Hierarchy problem \citep{PhysRevD.14.1667}. One of the ways it reveals itself is through the large discrepancy between the Planck mass and the mass of the Higgs particle. The former is about $10^{17}$ times bigger than the latter and current representation of particle physics cannot explain such a big difference. Quantum effects start manifesting themselves at the Plank mass threshold and such a vast difference between these two values is yet unaccounted for. 
+
+Another prominent problem is that SM does not explain dark matter. While ordinary matter only constitutes about 5\% in the total mass-energy content of the universe, it is dark matter and dark energy that account for the rest \citep{ade2014planck}. 
+%However,
+SM does not provide a candidate particle for dark matter and thus is only able to describe ordinary matter and energy. 
+
+One of the main challenges of modern physics is the unification of forces. This is part of the ongoing attempts to reach the ultimate goal - a "theory of everything". Such a theory would have to account for all physical aspects of the universe and include the most fundamental structures and interactions. The first step was made with the unification of electromagnetic and weak forces.  
+The next step is to achieve the unification of electromagnetic, weak, and strong interaction forces – this step is called the Grand Unification. The ultimate step is to combine all four fundamental forces together, which means adding gravity, in what is called Super Unification (see Fig.~\ref{fig:unification}). Thus far quantum field theory and general relativity are able to describe phenomena on their respective scale of action with remarkable precision, but are fundamentally incompatible.  
+\begin{figure}[ht]
+		\centering
+			\includegraphics[scale=0.8]{Chap2/Unification}
+\caption{\label{fig:unification} Various stages in the unification of forces  \citep{unification}}.
+\end{figure}
+
+Within the confines of the Standard Model even the Grand Unification is not possible, and this prompts the search for new theories that account for this and other shortcomings of SM. Collectively they are called Beyond-Standard-Model (BSM) theories. Among these there are theories that include extra-dimensions, composite Higgs boson models, etc.
+
+
+\section{Supersymmetry}
+One of the strongest candidate framework theories that can offer solutions to SM deficiencies is Supersymmetry (SUSY) \citep{Lykken:1996xt}. SUSY is a spacetime symmetry that equated fermionic and bosonic degrees of freedom. Among theories based on SUSY principles the Minimal Supersymmetric Standard Model (MSSM) offers the simplest extention of SM and will be the basic theory in this paper's analysis. MSSM postulates that each SM particle has a supersymmetric partner which is only different in spin by one-half unit (see Fig.~\ref{fig:SUSY}), while all other quantum numbers stay the same. 
+\begin{tabular}{|l|c|c|}
+\hline 
+name & spin & particles \\ 
+\hline 
+squarks & 0 &  \\ 
+sleptons & 0 & • \\ 
+charginos & $\frac{1}{2}$ & • \\ 
+neutralinos & $\frac{1}{2}$ & • \\ 
+gluinos & $\frac{1}{2}$ & • \\  
+Higgsinos & 0 & • \\ 
+\hline 
+\end{tabular} 
+
+The superpartners of quarks, leptons, and neutrinos are called squarks, sleptons and sneutrinos. For gauge bosons the superpartners are gluino, photino, wino and bino, collectively named gauginos. The latter two are superpartners of the  B and three W bosons of the elecroweak interaction. This is due to the fact that SUSY is invoked before the electroweak symmetry breaking. The Higgs sector in SUSY has five superpartners  - two charged $(H^{\pm})$ and three neutral ones $(h^0, H^0, A^0)$. They are known collectively as Higgsinos. Mixing between winos, binos and Higgsinos result in charginos and neutralinos. Their mass eigenstates arreferred to as $\tilde{\chi}^{\pm}_{i}$ ($i$ = 1,2) and $\tilde{\chi}^{0}_{i}$ ($i$ = 1,2,3,4) in order fo increasing mass. The masses of the supersymmmetric particles are assumed to be in the same region as that of the $W$ and $Z$ bosons. 
+
+There are a number of theoretical models that rely on supersymmetry as their underlying principle. There is a class of theories that require a quantity known as R-parity to be conserved. The mathematical description of R-parity is beyond the scope of this paper. However, one important consequence of R-parity conservation is that is supersymmetric particles were to be produced in collisions, they will be created in pairs. Then they decay through various possible scenarios with the stable so-called lightest supersymmetric particle (LSP) emerging in the final state and escaping undetected. 
+
+This research will focus on the electroweak production as one of the possible SUSY particle production scenario. Additionally, if the masses of squarks and gluinos are large, SUSY production will likely be dominated by electroweak production where sparticles have smaller mass \citep{aad2016search}. In particular, the production of $\tilde{\chi}^{+}_{1}\tilde{\chi}^{-}_{1}$ pair decaying through a slepton ($\tilde{l}$) or W boson with final states contatining two opposite sign leptons will be considered (see Fig. \ref{fig:EWchargino}). 
+\begin{figure}[!h]
+  \centering 
+  \subfigure[C1C1-llvvN1N1-slsnu]{	
+	\includegraphics[]{Chap2/C1C1-llvvN1N1-slsnu}
+    \label{fig:subfig1}    
+}
+\subfigure[C1C1-llvvN1N1-WW]{
+	\includegraphics[]{Chap2/C1C1-llvvN1N1-WW}
+    \label{fig:subfig2}    
+}
+\caption[Optional caption for list of figures]{Electroweak chargino pair production in proton-proton collisions.}
+\label{fig:EWchargino}
+\end{figure}  
+
+
+
+\section{The ATLAS detector}
+\label{sec:atlas}
+The ATLAS experiment is a multi-purpose particle detector with cylidrical geometry and has a nominal forward-backward symmetry \citep{aad2008atlas}. The dimensions of the detector are 25 m in height and 44 m in length and the overall weight of the detector is approximately 7000 tonnes.
+It can detect particles with almost 4$\pi$ coverage in solid angle around the collision point, which cover almost all of the spherical area. 
+
+Proton bunches are accelerated in the underground ring that is 27 km in diameter and are directed to collide inside the detectors. The collisions happen at 40 MHz bunch crossing rate, with an average 25 interactions per bunch crossing. The LHC is designed to operate at $\sqrt{s}$=14 TeV and instantaneous luminosity $\mathcal{L} = 10^{34}$ cm\textsuperscript{-2} s\textsuperscript{-1} in proton-proton collision mode. Instantaneous luminosity is defined as follows
+\begin{equation}
+\mathcal{L} = \frac{1}{\sigma}\frac{dN}{dt}
+\end{equation}  
+Where $\sigma$ is the interaction cross-section, and $N$ is the number of detected events during time $t$. Integrated luminosity $\mathcal{L}= \int \mathcal{L}\, dt$ is a quantity that expresses the amount of total data gathered during the time $t$ of running the LHC. In this paper the dataset gathered at 3.2 fb\textsuperscript{-1} of integrated luminosity will be used for analysis.  
+\begin{figure}[!t]
+	\centering
+    \captionsetup{width=\textwidth}
+	\includegraphics[width=\textwidth]{Chap2/ATLAS_SE_WithDimensions_Corrected}
+\caption{\label{fig:detector}  Cut-away view of the ATLAS detector (people are included for scale comparison) \citep{aad2008atlas}. }
+\end{figure}
+
+The cartesian coordinate system used at ATLAS has its origin at the nominal point of interaction with $z$ axis extending along the particle beam longitudinally, positive $x$ axis pointing towards the center of the ring, and positive $y$ axis pointing upwards. 
+The geometry of the detector makes the use of cylindrical coordinate system especially convenient. In it, $z$ axis stays the same, the polar angle $\theta$ is the angle from $z$-axis, and the azimuthal angle $\phi$ encircles $z$ axis in the transverse plane. However, instead of $\theta$ it is more convenient to use pseudorapidity $\eta$, due to the fact that differences in pseudorapidity are close to invariant under boosts along the $z$ axis (fully invariant for real rapidity). $\eta$ is defined as follows
+\begin{equation}
+\eta = -\ln\biggl(\tan\frac{\theta}{2}\biggr)
+\end{equation}
+
+Within $x$-$y$ plane the transverse energy $E_{T}$ and transverse momenta $p_{T}$ are defined.
+
+\subsection{ The ATLAS sub-detectors and trigger systems}
+
+The ATLAS detector consists of subdetector layers that are particularly sensitive to a designated type of particles produced in proton-proton collisions (see Fig.~\ref{fig:event}). The Inner Detector is closest to the collision point and covers $|\eta|<2.5$ in pseudorapidity. It has high granularity as it is exposed to the highest density of particle interaction. It was designed to provide a transverse momentum resolution and a transverse impact parameter resolution \citep{aad2010atlas}.The detector itself consists of three separate subsystems. The main components of the Inner Detector are: silicon pixel detector, semiconductor tracker, and transition radiation tracker. The three layers are all immersed in a 2 T magnetic field, created by the thin superconducting solenoidal magnet. This field is parallel to the beam axis and bends trajectories of charged particles allowing their charge and momentum identification based on the chracteristic bending of their trajectories. 
+\begin{figure}[!h]
+	\centering
+    \captionsetup{width=\textwidth}
+	\includegraphics[width=0.9\textwidth]{Chap2/0803022_01}
+\caption{\label{fig:event} Event in the transverse plane, a computer generated image of the ATLAS detector \cite{event}. }
+\end{figure}
+
+The next two layers are the two calorimeters that measure energies of specific type of particles. The particles travel through the detectors and lose their energy through interaction with its layers leaving energy deposits as they move through the material. 
+The first one is the high-granularity Electromagnetic Calorimeter (EmCal) and it measures energies of electrons and photons. Colored particles (gluons and quarks) travel further into Hadronic calorimeter (HCal) where they continue their decays and also deposit their available energy. 
+Both calorimeters are  designed to provide good quality measurements of momentum and energy and cover the region $|\eta|<4.9$.
+
+The final detecting layer is the Muon spectrometer, which tracks and measures charged particles, specifically muons. It is immersed into a large toroidal magnet, that provides a magnetic field throughout the spectrometer and bends the trajectories of charged muons, which makes it possible to detect their charge and momentum. Any particles that are not covered by the described sub-detectors will escape undetected. These include neutrinos and, possibly, the LSP. 
+
+
+Triggers are used to select events by identifying signatures of various particles as well as using global event signatures, such as missing transverse energy \citep{aad2012performance}. A three-level trigger system is used at ATLAS to select events that are of interest to further offline analysis. 
+The  first  level is hardware-based and uses information from the calorimeters and muon spectrometer, the second and third levels are software-based and use information from all sub-detectors. Because the data at LHC is produced in staggering amounts employing efficient trigger systems is crucial to be able to extract information that is relevant for further analysis. 
+
+ 
