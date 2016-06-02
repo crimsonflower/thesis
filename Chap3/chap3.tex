@@ -2,7 +2,7 @@
 
 Searches for various BSM theories including SUSY have been performed at LHC  alongside searching for the Higgs and performing different SM anlyses. Many SUSY searches were conducted targeting the production of squarks and gluinos. This was motivated by a larger theoretical cross-section and therefore higher probability of producing coloured superpartners \cite{borschensky2014squark}. Up to this moment no statistically significant excess over SM has been detected and exclusion limits were placed on masses of SUSY particles. Figure~\ref{fig:SUSYlimit} shows the latest data on the masses that have been excluded for supersymmetric particles in various production scenarios. The lower limits on the masses of most squarks and gluinos in different searches significantly exceed 1 TeV \citep{aad2015summary}. As a consequence, if their production occurs, it is either extremely rare at present energies or requires higher energy of collision to leave an identifiable signature. 
 
-This thesis's research will focus on the electroweak production as one of the possible SUSY particle production scenario. Sleptons and gauginos are produced in electroweak production processes and are not affected by the strong force. They have smaller cross-sections compared to squarks and gluinos, so their theoretical production rate is smaller. However, if their masses are small compared to the strongly interacting sparticles, SUSY production will likely be dominated by electroweak production where sparticles have smaller mass and current energy might be enough to produce them in quantities that would allow their detection \citep{aad2016search}.
+This thesis's research will focus on the electroweak production as one of the possible SUSY particle production scenario. Sleptons and gauginos are produced in electroweak production processes and are not affected by the strong force. They have smaller cross-sections compared to squarks and gluinos, so their theoretical production rate is smaller. However, if their masses are small compared to the strongly interacting sparticles, SUSY production will likely be dominated by electroweak production where sparticles have smaller mass and current energy might be enough to produce them in quantities that would allow their detection \citep{aad2016search}. 
 %\newgeometry{left=1cm,right=1cm}
 \begin{figure}[!ht]
 \includegraphics[width=\textwidth]{Chap3/ATLAS_SUSY_Summary.png}
@@ -39,7 +39,7 @@ Detecting new physics events at LHC requires using computational and statistical
 
 The cornerstone of all accelerator physics analyses is the correct estimation of background events. All background events represent physics that is already known and that has some similar or identical features with the processes we wish to study. For instance, this thesis focusses on the  reactions that have precisely two oppositely charged leptons in their final states. A number of processes well described by the standard model share this characteristic and therefore will form the background. 
 
-The task of correctly identifying background is therefore crucial in the process of searches for new physics events. Monte Carlo (MC) simulations are used to generate a sample according to a probability distribution of a particular process. In this thesis MC simulated data samples are used to model background events along with SUSY signal events. All the samples include events that result in dileptonic decays. 
+The task of correctly identifying background is therefore crucial in the process of searches for new physics events. Monte Carlo (MC) simulations are used to generate a sample according to a probability distribution of a particular process. In this thesis MC simulated data samples are used to model SM background events along with SUSY signal events. All the samples include events that can result in dileptonic decays. 
 
 The real data is then overlaid on the simulated background to see whether there is a disagreement between them. If there is a disagreement that is significantly large that can lead to new discoveries. The presence of a new particle can reveal itself in a number of ways. The easiest case to detect is finding an abnormality in mass distribution, as was the case with the discovery of the Higgs. The narrow peak over a smooth line in mass distribution of diphoton events constituted a significant excess over SM predictions and was in agreement with theoretical predictions \citep{chatrchyan2012observation,Aad:2012tfa}. 
 
@@ -52,7 +52,17 @@ The real data is then overlaid on the simulated background to see whether there 
 
 Unfortunately, this method does not work well for SUSY particles and other techniques have to be used. Standard search techniques involve defining \textbf{signal regions} in data distributions that are sensitive to possible SUSY signals and looking whether there is a significant excess over SM background predictions in these regions. Another method is looking for abnormal tails in distributions of different variables that are not in agreement with SM predictions. These variables will be discussed in the next section.
 
-\subsection{Variables used in searches for supersymmetry}
+\subsection{Event reconstruction}
+
+Event reconstruction is the process of turning raw data into manageable format that includes quantities needed in physics analysis. Full description of this procedure can be found elsewhere \citep{atlas2015search}. However, it is important to give a general outline of the selection procedure for reactions that result in two leptonic decays.
+
+Electron candidates are required to have $|\eta|<2.47$ and transverse momentum $p_{T}>7$ GeV. These are inferred from the calibrated  energy deposits in the EmCal and must have a matching ID track. Muon candidates are reconstructed using information from MS and ID tracks and are required to have   $|\eta|<2.5$ and $p_{T}>5$ GeV. 
+
+
+\subsection{Variables used in the analysis}
+
+
+
 
 
  
