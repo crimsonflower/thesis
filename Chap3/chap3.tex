@@ -54,9 +54,12 @@ Unfortunately, this method does not work well for SUSY particles and other techn
 
 \subsection{Event reconstruction}
 
-Event reconstruction is the process of turning raw data into manageable format that includes quantities needed in physics analysis. Full description of this procedure can be found elsewhere \citep{atlas2015search}. However, it is important to give a general outline of the selection procedure for reactions that result in two leptonic decays.
+Event reconstruction is the process of turning raw data into manageable format that includes quantities needed in physics analysis. An event has to pass certain identification criteria to be chosen for reconstruction. 
+Full description of this procedure can be found elsewhere \citep{atlas2015search}. However, it is important to give a general outline of the selection procedure for reactions that result in two leptonic decays.
 
-Electron candidates are required to have $|\eta|<2.47$ and transverse momentum $p_{T}>7$ GeV. These are inferred from the calibrated  energy deposits in the EmCal and must have a matching ID track. Muon candidates are reconstructed using information from MS and ID tracks and are required to have   $|\eta|<2.5$ and $p_{T}>5$ GeV. 
+Electron candidates are required to have $|\eta|<2.47$ and transverse momentum $p_{T}>7$ GeV. These are inferred from the calibrated  energy deposits in the EmCal and must have a matching ID track. Muon candidates are reconstructed using information from MS and ID tracks and are required to have   $|\eta|<2.5$ and $p_{T}>5$ GeV. Jets are reconstructed using information from calorimeters and are divided into "central" and "forward" categories. Central jets must have $|\eta|<2.4$ and $p_{T}>20$ GeV. Forward jets are those with $2.4<|\eta|<4.5$ and $p_{T}>30$ GeV. 
+
+A very important technique used in LHC analyses is identification of central jets containing $b$-hadrons. These jets are referred to as $b$-tagged and are identified using multivariate techniques based on artificial neural networks and boosted decision trees \citep{Aad:2015ydr}. The efficiency of $b$-tagging has been significantly improved in run-II due to the addition of the Insertable B-Layer (IBL) in the ID.
 
 
 \subsection{Variables used in the analysis}
