@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.22)  2 JUN 2016 18:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.22)  3 JUN 2016 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -579,26 +579,26 @@ Package pdftex.def Info: Chap3/figaux_004a.png used on input line 49.
  [14 <./Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf>] [15 <./Chap3/figaux_00
 4a.png>]) (./thesis.bbl [16] [17
 
-])
+] [18])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
- [18]
+ [19]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
 
 (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 0E50F4D9BB0107E17FEF490CA24EC2D0;985.
+(rerunfilecheck)             Checksum: BBD2AC9D742EED59DFEAB37597D062DA;977.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 8591 strings out of 494985
- 126312 string characters out of 6180356
- 218182 words of memory out of 5000000
- 11578 multiletter control sequences out of 15000+600000
+ 8598 strings out of 494985
+ 126428 string characters out of 6180356
+ 218267 words of memory out of 5000000
+ 11583 multiletter control sequences out of 15000+600000
  11401 words of font info for 43 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 36i,12n,44p,2253b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,44p,2253b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
@@ -608,10 +608,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
 ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (21 pages, 8539527 bytes).
+Output written on thesis.pdf (22 pages, 8539901 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 260 compressed objects within 3 object streams
- 70 named destinations out of 1000 (max. 500000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 265 compressed objects within 3 object streams
+ 72 named destinations out of 1000 (max. 500000)
  148 words of extra memory for PDF output out of 10000 (max. 10000000)
 

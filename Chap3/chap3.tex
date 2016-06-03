@@ -2,7 +2,7 @@
 
 Searches for various BSM theories including SUSY have been performed at LHC  alongside searching for the Higgs and performing different SM anlyses. Many SUSY searches were conducted targeting the production of squarks and gluinos. This was motivated by a larger theoretical cross-section and therefore higher probability of producing coloured superpartners \cite{borschensky2014squark}. Up to this moment no statistically significant excess over SM has been detected and exclusion limits were placed on masses of SUSY particles. Figure~\ref{fig:SUSYlimit} shows the latest data on the masses that have been excluded for supersymmetric particles in various production scenarios. The lower limits on the masses of most squarks and gluinos in different searches significantly exceed 1 TeV \citep{aad2015summary}. As a consequence, if their production occurs, it is either extremely rare at present energies or requires higher energy of collision to leave an identifiable signature. 
 
-This thesis's research will focus on the electroweak production as one of the possible SUSY particle production scenario. Sleptons and gauginos are produced in electroweak production processes and are not affected by the strong force. They have smaller cross-sections compared to squarks and gluinos, so their theoretical production rate is smaller. However, if their masses are small compared to the strongly interacting sparticles, SUSY production will likely be dominated by electroweak production where sparticles have smaller mass and current energy might be enough to produce them in quantities that would allow their detection \citep{aad2016search}. 
+This thesis's research will focus on the electroweak production as one of the possible SUSY particle production scenario. Sleptons and gauginos are produced in electroweak production processes and are not affected by the strong force. They have smaller cross-sections compared to squarks and gluinos, so their theoretical production rate is smaller. However, if their masses are small compared to the strongly interacting sparticles, SUSY production will likely be dominated by electroweak production where sparticles have smaller mass and current energy might be enough to produce them in quantities that would allow their detection \citep{atlas2015search}. 
 %\newgeometry{left=1cm,right=1cm}
 \begin{figure}[!ht]
 \includegraphics[width=\textwidth]{Chap3/ATLAS_SUSY_Summary.png}
@@ -29,19 +29,19 @@ In particular, the production of $\tilde{\chi}^{+}_{1}\tilde{\chi}^{-}_{1}$ pair
 \caption[Optional caption for list of figures]{Electroweak chargino pair production in proton-proton collisions with intermediate slepton in the decay process.}\label{fig:EWchargino}
 \end{figure}  
 
-In the nomenclature used at LHC and in this thesis, electrons and muons are called "light leptons". Taus are considered separately as they decay very promptly and therefore are very difficult to reconstruct. This thesis only focuses on final states containing electrons and muons and the designation "lepton" only refers to these particles.  
+In the nomenclature used at LHC and in this thesis, electrons and muons are called "light leptons". Taus are considered separately as they decay very promptly and therefore are very difficult to reconstruct. This thesis only focuses on final states containing electrons and muons and thus the designation "lepton" only refers to these particles.  
 
 
 %However, given that so far only 3.2 fb\textsuperscript{-1} of integrated luminosity has been achieved at $\sqrt{s} = 13$ TeV.
 
-\subsection{Overview of search methods at LHC}
+\subsection{Overview of search methods}
 Detecting new physics events at LHC requires using computational and statistical methods that can deal with the type of information a particle accelerator produces. The data is initially collected using triggers corresponding to the type of events under analysis. Each event has a large number of physical characteristics such as momentum, energy, mass, multiplicities, etc. The numbers representing them are all stored in a data structure which then can be accessed, modified and analysed using software tools. 
 
 The cornerstone of all accelerator physics analyses is the correct estimation of background events. All background events represent physics that is already known and that has some similar or identical features with the processes we wish to study. For instance, this thesis focusses on the  reactions that have precisely two oppositely charged leptons in their final states. A number of processes well described by the standard model share this characteristic and therefore will form the background. 
 
 The task of correctly identifying background is therefore crucial in the process of searches for new physics events. Monte Carlo (MC) simulations are used to generate a sample according to a probability distribution of a particular process. In this thesis MC simulated data samples are used to model SM background events along with SUSY signal events. All the samples include events that can result in dileptonic decays. 
 
-The real data is then overlaid on the simulated background to see whether there is a disagreement between them. If there is a disagreement that is significantly large that can lead to new discoveries. The presence of a new particle can reveal itself in a number of ways. The easiest case to detect is finding an abnormality in mass distribution, as was the case with the discovery of the Higgs. The narrow peak over a smooth line in mass distribution of diphoton events constituted a significant excess over SM predictions and was in agreement with theoretical predictions \citep{chatrchyan2012observation,Aad:2012tfa}. 
+The real data is then overlaid on the simulated background to see whether there is a disagreement between them. If there is a significantly large disagreement it can lead to new discoveries. The presence of a new particle can reveal itself in a number of ways. The easiest case to detect is finding an abnormality in mass distribution, as was the case with the discovery of the Higgs. The narrow peak over a smooth line in mass distribution of diphoton events constituted a significant excess over SM predictions and was in agreement with theoretical predictions \citep{chatrchyan2012observation,Aad:2012tfa}. 
 
 \begin{figure}
 	\centering
@@ -50,21 +50,20 @@ The real data is then overlaid on the simulated background to see whether there 
 	\caption[width=0.8\textwidth]{Invariant mass distribution of diphoton 				candidates for the combined $\sqrt{s}$ = 7 TeV and $\sqrt{s}$ = 8 TeV 			data samples. The mass of the Higgs corresponds to the peak at 126.5 				GeV \citep{Aad:2012tfa}.}
 \end{figure}
 
-Unfortunately, this method does not work well for SUSY particles and other techniques have to be used. Standard search techniques involve defining \textbf{signal regions} in data distributions that are sensitive to possible SUSY signals and looking whether there is a significant excess over SM background predictions in these regions. Another method is looking for abnormal tails in distributions of different variables that are not in agreement with SM predictions. These variables will be discussed in the next section.
+Unfortunately, this method does not work well for SUSY particles and other techniques have to be used. Standard search techniques involve defining \textbf{signal regions} in data distributions that are sensitive to possible SUSY signals and looking whether there is a significant excess over SM background predictions in these regions. Another method is looking for abnormal tails in distributions of different variables that are not in agreement with SM predictions. These variables will be discussed in the subsection \ref{subsec:Variables}.
 
-\subsection{Event reconstruction}
+\subsection{Event selection}
 
-Event reconstruction is the process of turning raw data into manageable format that includes quantities needed in physics analysis. An event has to pass certain identification criteria to be chosen for reconstruction. 
-Full description of this procedure can be found elsewhere \citep{atlas2015search}. However, it is important to give a general outline of the selection procedure for reactions that result in two leptonic decays.
+Event reconstruction is the process of turning raw data into manageable format that includes quantities needed in physics analysis. An event has to pass certain identification criteria to be chosen for reconstruction. Correct identification of different physics objects at LHC includes various dedicated algorithms not presented in this thesis, but are available elsewhere \citep{Aad:2016tuk}. 
+However, in this section a general outline of the selection procedure for reactions that result in two leptonic decays will be given. All "signal" objects have to pass a set of criteria to obtain a high quality sample with minimum possible contamination.
 
-Electron candidates are required to have $|\eta|<2.47$ and transverse momentum $p_{T}>7$ GeV. These are inferred from the calibrated  energy deposits in the EmCal and must have a matching ID track. Muon candidates are reconstructed using information from MS and ID tracks and are required to have   $|\eta|<2.5$ and $p_{T}>5$ GeV. Jets are reconstructed using information from calorimeters and are divided into "central" and "forward" categories. Central jets must have $|\eta|<2.4$ and $p_{T}>20$ GeV. Forward jets are those with $2.4<|\eta|<4.5$ and $p_{T}>30$ GeV. 
+Signal electrons are required to have $|\eta|<2.47$ and transverse momentum $p_{T}>10$ GeV. These are inferred from the calibrated  energy deposits in the EmCal and must have a matching ID track. Signal muons are reconstructed using information from MS and ID tracks and are required to have   $|\eta|<2.5$ and $p_{T}>10$ GeV. Jets are reconstructed using information from calorimeters and are divided into "central" and "forward" categories. Central jets must have $|\eta|<2.4$ and $p_{T}>20$ GeV. Forward jets are those with $2.4<|\eta|<4.5$ and $p_{T}>30$ GeV. 
 
-A very important technique used in LHC analyses is identification of central jets containing $b$-hadrons. These jets are referred to as $b$-tagged and are identified using multivariate techniques based on artificial neural networks and boosted decision trees \citep{Aad:2015ydr}. The efficiency of $b$-tagging has been significantly improved in run-II due to the addition of the Insertable B-Layer in the ID. 
-
-
+One of the common techniques used in LHC analyses is the identification of central jets that have $b$-hadrons (hadrons containing bottom quark/s).  These jets are referred to as $b$-tagged and are identified using multivariate techniques based on machine learning instruments such as artificial neural networks and boosted decision trees \citep{Aad:2015ydr}. The efficiency of $b$-tagging has been significantly improved in run-II due to the addition of the Insertable B-Layer in the ID. $b$-tagging is very important because some important heavy particles such as top quark and the Higgs decay into bottom quarks. 
 
 
 \subsection{Variables used in the analysis}
+\label{subsec:Variables}
 
 
 
