@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.22)  4 JUN 2016 19:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.22)  4 JUN 2016 23:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -790,6 +790,7 @@ LaTeX Warning: No positions in optional float specifier.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
+ [4]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -801,25 +802,26 @@ Package epstopdf Info: Source file: <Chap2/Unification.eps>
 (epstopdf)                    size: 46103 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chap2/Unification-eps-conv
 erted-to.pdf Chap2/Unification.eps>
-(epstopdf)             \includegraphics on input line 44.
+(epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
- <Chap2/Unification-eps-converted-to.pdf, id=122, 375.4025pt x 257.96375pt>
+
+<Chap2/Unification-eps-converted-to.pdf, id=143, 375.4025pt x 257.96375pt>
 File: Chap2/Unification-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chap2/Unification-eps-converted-to.pdf>
 Package pdftex.def Info: Chap2/Unification-eps-converted-to.pdf used on input l
-ine 44.
+ine 45.
 (pdftex.def)             Requested size: 300.3224pt x 206.37126pt.
- [4] [5 <./Chap2/Unification-eps-converted-to.pdf>] [6]
-<Chap2/ATLAS_SE_WithDimensions_Corrected.png, id=159, 3312.375pt x 2107.875pt>
+ [5 <./Chap2/Unification-eps-converted-to.pdf>] [6]
+<Chap2/ATLAS_SE_WithDimensions_Corrected.png, id=165, 3312.375pt x 2107.875pt>
 File: Chap2/ATLAS_SE_WithDimensions_Corrected.png Graphic file (type png)
 
 <use Chap2/ATLAS_SE_WithDimensions_Corrected.png>
 Package pdftex.def Info: Chap2/ATLAS_SE_WithDimensions_Corrected.png used on in
-put line 98.
+put line 99.
 (pdftex.def)             Requested size: 433.62pt x 275.93102pt.
  [7]
-<Chap2/0803022_01.jpg, id=172, 903.375pt x 732.7375pt>
+<Chap2/0803022_01.jpg, id=177, 903.375pt x 732.7375pt>
 File: Chap2/0803022_01.jpg Graphic file (type jpg)
 
 <use Chap2/0803022_01.jpg>
@@ -833,7 +835,7 @@ his)
 >] [9 <./Chap2/0803022_01.jpg>]) [10]
 CHAPTER III.
 (./Chap3/chap3.tex
-<Chap3/ATLAS_SUSY_Summary.png, id=201, 2913.88625pt x 2165.08875pt>
+<Chap3/ATLAS_SUSY_Summary.png, id=206, 2913.88625pt x 2165.08875pt>
 File: Chap3/ATLAS_SUSY_Summary.png Graphic file (type png)
 
 <use Chap3/ATLAS_SUSY_Summary.png>
@@ -842,12 +844,12 @@ Package pdftex.def Info: Chap3/ATLAS_SUSY_Summary.png used on input line 8.
  [11
 
 ] [12 <./Chap3/ATLAS_SUSY_Summary.png>]
-<Chap3/fig_19b.png, id=219, 1976.38374pt x 1700.3525pt>
+<Chap3/fig_19b.png, id=224, 1976.38374pt x 1700.3525pt>
 File: Chap3/fig_19b.png Graphic file (type png)
 
 <use Chap3/fig_19b.png>
 Package pdftex.def Info: Chap3/fig_19b.png used on input line 19.
-(pdftex.def)             Requested size: 296.44476pt x 255.04187pt.
+(pdftex.def)             Requested size: 237.1558pt x 204.0335pt.
 Package epstopdf Info: Source file: <Chap2/C1C1-llvvN1N1-slsnu.eps>
 (epstopdf)                    date: 2016-01-20 10:04:35
 (epstopdf)                    size: 6439 bytes
@@ -860,71 +862,83 @@ eps-converted-to.pdf Chap2/C1C1-llvvN1N1-slsnu.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf, id=225, 128.48pt x 110.4125pt>
+<Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf, id=230, 128.48pt x 110.4125pt>
 File: Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf Graphic file (type pdf)
 <use Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf>
 Package pdftex.def Info: Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf used on
  input line 28.
 (pdftex.def)             Requested size: 128.47968pt x 110.41222pt.
+ [13
 
+ <./Chap3/fig_19b.png> <./Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf>]
+<Chap3/c1c1_wino.pdf, id=244, 569.12625pt x 552.0625pt>
+File: Chap3/c1c1_wino.pdf Graphic file (type pdf)
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[13
-
- <./Chap3/fig_19b.png>] [14 <./Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf>]
- <Chap3/figaux_004a.png, id=242, 1138.2525pt x 817.0525pt>
+<use Chap3/c1c1_wino.pdf>
+Package pdftex.def Info: Chap3/c1c1_wino.pdf used on input line 38.
+(pdftex.def)             Requested size: 227.64647pt x 220.82108pt.
+ [14 <./Chap3/c1c1_wino.pdf, page is rotated 90 degrees>] <Chap3/figaux_004a.pn
+g, id=299, 1138.2525pt x 817.0525pt>
 File: Chap3/figaux_004a.png Graphic file (type png)
 
 <use Chap3/figaux_004a.png>
-Package pdftex.def Info: Chap3/figaux_004a.png used on input line 49.
+Package pdftex.def Info: Chap3/figaux_004a.png used on input line 61.
 (pdftex.def)             Requested size: 227.64647pt x 163.40761pt.
  [15 <./Chap3/figaux_004a.png>]
-Overfull \hbox (22.28444pt too wide) in paragraph at lines 72--73
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 80.
+
+[16]
+Overfull \hbox (22.28444pt too wide) in paragraph at lines 96--97
 []$\OT1/cmr/bx/n/12 ^^A\OML/cmm/b/it/12 ^^^\OT1/cmr/bx/n/12 (\OML/cmm/b/it/12 X
 ; Y\OT1/cmr/bx/n/12 )$ \OT1/cmr/m/n/12 The sep-a-ra-tion be-tween two re-con-st
 ructed ob-jects $\OML/cmm/m/it/12 X$ \OT1/cmr/m/n/12 and $\OML/cmm/m/it/12 Y$\O
 T1/cmr/m/n/12 , e.g. $[]$. 
  []
 
-[16]) (./thesis.bbl [17] [18] [19
+[17] [18]) (./thesis.bbl [19] [20
 
-] [20])
+] [21])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
- [21]
+ [22]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 71D6CA6687C88200A7D0325CCB7D978C;1079.
+(rerunfilecheck)             Checksum: F321EFAA262F657FE9267E75D1BAF637;1147.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
  ) 
 Here is how much of TeX's memory you used:
- 15160 strings out of 494985
- 263592 string characters out of 6180356
- 336118 words of memory out of 5000000
- 18019 multiletter control sequences out of 15000+600000
- 14779 words of font info for 54 fonts, out of 8000000 for 9000
+ 15213 strings out of 494985
+ 264347 string characters out of 6180356
+ 336288 words of memory out of 5000000
+ 18057 multiletter control sequences out of 15000+600000
+ 19835 words of font info for 73 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 45i,12n,44p,10463b,591s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,12n,44p,10463b,589s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
->
-Output written on thesis.pdf (24 pages, 8582016 bytes).
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (25 pages, 8638435 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 300 compressed objects within 3 object streams
- 81 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 431 PDF objects out of 1000 (max. 8388607)
+ 342 compressed objects within 4 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,16 @@
 \begin{thebibliography}{10}
 
+\bibitem{Aad:2012tfa}
+G.~Aad {\em et~al.}, ``{Observation of a new particle in the search for the
+  Standard Model Higgs boson with the ATLAS detector at the LHC},'' {\em Phys.
+  Lett.}, vol.~B716, pp.~1--29, 2012.
+
+\bibitem{chatrchyan2012observation}
+S.~Chatrchyan, V.~Khachatryan, A.~M. Sirunyan, A.~Tumasyan, W.~Adam, E.~Aguilo,
+  T.~Bergauer, M.~Dragicevic, J.~Er{\"o}, C.~Fabjan, {\em et~al.},
+  ``Observation of a new boson at a mass of 125 gev with the cms experiment at
+  the lhc,'' {\em Physics Letters B}, vol.~716, no.~1, pp.~30--61, 2012.
+
 \bibitem{martin2006nuclear}
 B.~R. Martin, {\em Nuclear and particle physics: An introduction}.
 \newblock John Wiley \& Sons, 2006.
@@ -23,17 +34,6 @@ F.~Englert and R.~Brout, ``Broken symmetry and the mass of gauge vector
 \bibitem{higgs1964broken}
 P.~W. Higgs, ``Broken symmetries and the masses of gauge bosons,'' {\em
   Physical Review Letters}, vol.~13, no.~16, p.~508, 1964.
-
-\bibitem{Aad:2012tfa}
-G.~Aad {\em et~al.}, ``{Observation of a new particle in the search for the
-  Standard Model Higgs boson with the ATLAS detector at the LHC},'' {\em Phys.
-  Lett.}, vol.~B716, pp.~1--29, 2012.
-
-\bibitem{chatrchyan2012observation}
-S.~Chatrchyan, V.~Khachatryan, A.~M. Sirunyan, A.~Tumasyan, W.~Adam, E.~Aguilo,
-  T.~Bergauer, M.~Dragicevic, J.~Er{\"o}, C.~Fabjan, {\em et~al.},
-  ``Observation of a new boson at a mass of 125 gev with the cms experiment at
-  the lhc,'' {\em Physics Letters B}, vol.~716, no.~1, pp.~30--61, 2012.
 
 \bibitem{PhysRevD.14.1667}
 E.~Gildener, ``Gauge-symmetry hierarchies,'' {\em Phys. Rev. D}, vol.~14,
@@ -111,6 +111,23 @@ G.~Aad, B.~Abbott, J.~Abdallah, O.~Abdinov, R.~Aben, M.~Abolins, O.~AbouZeid,
   H.~Abramowicz, H.~Abreu, R.~Abreu, {\em et~al.}, ``Search for the electroweak
   production of supersymmetric particles in s= 8 tev p p collisions with the
   atlas detector,'' {\em Physical review D}, vol.~93, no.~5, p.~052002, 2016.
+
+\bibitem{Fuks:2012qx}
+B.~Fuks, M.~Klasen, D.~R. Lamprea, and M.~Rothering, ``{Gaugino production in
+  proton-proton collisions at a center-of-mass energy of 8 TeV},'' {\em JHEP},
+  vol.~10, p.~081, 2012.
+
+\bibitem{Fuks:2013vua}
+B.~Fuks, M.~Klasen, D.~R. Lamprea, and M.~Rothering, ``{Precision predictions
+  for electroweak superpartner production at hadron colliders with {\sc
+  Resummino}},'' {\em Eur. Phys. J. C}, vol.~73, p.~2480, 2013.
+
+\bibitem{xsec}
+{ATLAS collaboration}, ``13 tev c1c1 wino cross-section,'' 2016.
+
+\bibitem{Wagner:2010wd}
+W.~Wagner, ``{Top-Antitop-Quark Production and Decay Properties at the
+  Tevatron},'' {\em Mod. Phys. Lett.}, vol.~A25, pp.~1297--1314, 2010.
 
 \bibitem{Aad:2016tuk}
 G.~Aad {\em et~al.}, ``{Search for supersymmetry at $\sqrt{s}=13$ TeV in final
