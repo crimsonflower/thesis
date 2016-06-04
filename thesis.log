@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.22)  3 JUN 2016 16:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.22)  4 JUN 2016 18:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -370,38 +370,341 @@ pboxa \hfill } \fi .
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: subfigure package is loaded.
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
 )
-\c@theorem=\count121
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3names.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
+Package: l3bootstrap 2014/01/04 v4640 L3 Experimental bootstrap code
+)
+Package: l3names 2014/01/04 v4640 L3 Namespace for primitives
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count121
+)
+Package: expl3 2014/01/07 v4646 L3 Experimental code bundle wrapper
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3basics.sty
+Package: l3basics 2014/01/04 v4642 L3 Basic definitions
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3expan.sty
+Package: l3expan 2014/01/04 v4642 L3 Argument expansion
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3tl.sty
+Package: l3tl 2013/12/27 v4625 L3 Token lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3seq.sty
+Package: l3seq 2013/12/14 v4623 L3 Sequences and stacks
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3int.sty
+Package: l3int 2013/08/02 v4583 L3 Integers
+\c_max_int=\count122
+\l_tmpa_int=\count123
+\l_tmpb_int=\count124
+\g_tmpa_int=\count125
+\g_tmpb_int=\count126
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3quark.sty
+Package: l3quark 2013/12/14 v4623 L3 Quarks
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prg.sty
+Package: l3prg 2014/01/04 v4642 L3 Control structures
+\g__prg_map_int=\count127
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3clist.sty
+Package: l3clist 2013/07/28 v4581 L3 Comma separated lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3token.sty
+Package: l3token 2013/08/25 v4587 L3 Experimental token manipulation
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prop.sty
+Package: l3prop 2013/12/14 v4623 L3 Property lists
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3msg.sty
+Package: l3msg 2013/07/28 v4581 L3 Messages
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3file.sty
+Package: l3file 2013/10/13 v4596 L3 File and I/O operations
+\l_iow_line_count_int=\count128
+\l__iow_target_count_int=\count129
+\l__iow_current_line_int=\count130
+\l__iow_current_word_int=\count131
+\l__iow_current_indentation_int=\count132
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3skip.sty
+Package: l3skip 2013/07/28 v4581 L3 Dimensions and skips
+\c_zero_dim=\dimen130
+\c_max_dim=\dimen131
+\l_tmpa_dim=\dimen132
+\l_tmpb_dim=\dimen133
+\g_tmpa_dim=\dimen134
+\g_tmpb_dim=\dimen135
+\c_zero_skip=\skip60
+\c_max_skip=\skip61
+\l_tmpa_skip=\skip62
+\l_tmpb_skip=\skip63
+\g_tmpa_skip=\skip64
+\g_tmpb_skip=\skip65
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3keys.sty
+Package: l3keys 2013/12/08 v4614 L3 Experimental key-value interfaces
+\g__keyval_level_int=\count133
+\l_keys_choice_int=\count134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3fp.sty
+Package: l3fp 2014/01/04 v4642 L3 Floating points
+\c__fp_leading_shift_int=\count135
+\c__fp_middle_shift_int=\count136
+\c__fp_trailing_shift_int=\count137
+\c__fp_big_leading_shift_int=\count138
+\c__fp_big_middle_shift_int=\count139
+\c__fp_big_trailing_shift_int=\count140
+\c__fp_Bigg_leading_shift_int=\count141
+\c__fp_Bigg_middle_shift_int=\count142
+\c__fp_Bigg_trailing_shift_int=\count143
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3box.sty
+Package: l3box 2013/07/28 v4581 L3 Experimental boxes
+\c_empty_box=\box29
+\l_tmpa_box=\box30
+\l_tmpb_box=\box31
+\g_tmpa_box=\box32
+\g_tmpb_box=\box33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3coffins.sty
+Package: l3coffins 2013/12/14 v4624 L3 Coffin code layer
+\l__coffin_internal_box=\box34
+\l__coffin_internal_dim=\dimen136
+\l__coffin_offset_x_dim=\dimen137
+\l__coffin_offset_y_dim=\dimen138
+\l__coffin_x_dim=\dimen139
+\l__coffin_y_dim=\dimen140
+\l__coffin_x_prime_dim=\dimen141
+\l__coffin_y_prime_dim=\dimen142
+\c_empty_coffin=\box35
+\l__coffin_aligned_coffin=\box36
+\l__coffin_aligned_internal_coffin=\box37
+\l_tmpa_coffin=\box38
+\l_tmpb_coffin=\box39
+\l__coffin_display_coffin=\box40
+\l__coffin_display_coord_coffin=\box41
+\l__coffin_display_pole_coffin=\box42
+\l__coffin_display_offset_dim=\dimen143
+\l__coffin_display_x_dim=\dimen144
+\l__coffin_display_y_dim=\dimen145
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3color.sty
+Package: l3color 2012/08/29 v4156 L3 Experimental color support
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3luatex.sty
+Package: l3luatex 2013/07/28 v4581 L3 Experimental LuaTeX-specific functions
+\g__cctab_allocate_int=\count144
+\g__cctab_stack_int=\count145
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3candidates.sty
+Package: l3candidates 2014/01/06 v4643 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen146
+\l__box_bottom_dim=\dimen147
+\l__box_left_dim=\dimen148
+\l__box_right_dim=\dimen149
+\l__box_top_new_dim=\dimen150
+\l__box_bottom_new_dim=\dimen151
+\l__box_left_new_dim=\dimen152
+\l__box_right_new_dim=\dimen153
+\l__box_internal_box=\box43
+\l__coffin_bounding_shift_dim=\dimen154
+\l__coffin_left_corner_dim=\dimen155
+\l__coffin_right_corner_dim=\dimen156
+\l__coffin_bottom_corner_dim=\dimen157
+\l__coffin_top_corner_dim=\dimen158
+\l__coffin_scaled_total_height_dim=\dimen159
+\l__coffin_scaled_width_dim=\dimen160
+))
+Package: l3keys2e 2013/12/31 v4634 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2013/12/31 v4634 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count146
+\l__xparse_m_args_int=\count147
+\l__xparse_mandatory_args_int=\count148
+\l__xparse_processor_int=\count149
+\l__xparse_v_nesting_int=\count150
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2013/12/31 v4634 L3 Experimental prototype document function
+s
+\l__xtemplate_tmp_dim=\dimen161
+\l__xtemplate_tmp_int=\count151
+\l__xtemplate_tmp_muskip=\muskip18
+\l__xtemplate_tmp_skip=\skip66
+Variant \prop_get:NoNTF already defined; not changing it on line 106
+Variant \prop_get:NoNT already defined; not changing it on line 107
+Variant \prop_get:NoNF already defined; not changing it on line 108
+)
+Package: xfrac 2012/11/09 v4299 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box44
+\l__xfrac_tmp_box=\box45
+\l__xfrac_denominator_bot_sep_dim=\dimen162
+\l__xfrac_numerator_bot_sep_dim=\dimen163
+\l__xfrac_numerator_top_sep_dim=\dimen164
+\l__xfrac_slash_left_sep_dim=\dimen165
+\l__xfrac_slash_right_sep_dim=\dimen166
+\l__xfrac_slash_left_muskip=\muskip19
+\l__xfrac_slash_right_muskip=\muskip20
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'xfrac' taking 3 argument(s) on line 96.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \sfrac with arg. spec. 'omom' on line 436.
+.................................................
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip67
+\enit@outerparindent=\dimen167
+\enit@toks=\toks30
+\enit@inbox=\box46
+\enitdp@description=\count152
+)
+\c@theorem=\count153
  (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count122
-\scratchdimen=\dimen130
-\scratchbox=\box29
-\nofMPsegments=\count123
-\nofMParguments=\count124
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count125
-\MPscratchDim=\dimen131
-\MPnumerator=\count126
-\makeMPintoPDFobject=\count127
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count154
+\scratchdimen=\dimen168
+\scratchbox=\box47
+\nofMPsegments=\count155
+\nofMParguments=\count156
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count157
+\MPscratchDim=\dimen169
+\MPnumerator=\count158
+\makeMPintoPDFobject=\count159
+\everyMPtoPDFconversion=\toks32
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -417,8 +720,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring OFF on input line 88.
+\AtBeginShipoutBox=\box48
+Package hyperref Info: Link coloring OFF on input line 91.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -426,11 +729,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count128
+\c@section@level=\count160
 )
-LaTeX Info: Redefining \ref on input line 88.
-LaTeX Info: Redefining \pageref on input line 88.
-LaTeX Info: Redefining \nameref on input line 88.
+LaTeX Info: Redefining \ref on input line 91.
+LaTeX Info: Redefining \pageref on input line 91.
+LaTeX Info: Redefining \nameref on input line 91.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
@@ -438,12 +741,12 @@ LaTeX Info: Redefining \nameref on input line 88.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 95.
+LaTeX Font Info:    Try loading font information for U+msa on input line 98.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 95.
+LaTeX Font Info:    Try loading font information for U+msb on input line 98.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -454,7 +757,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = `thesis.toc'.
 
  [2] (./Abstract/Abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 134--2
+Underfull \hbox (badness 10000) in paragraph at lines 137--2
 
  []
 
@@ -500,7 +803,7 @@ Package epstopdf Info: Source file: <Chap2/Unification.eps>
 erted-to.pdf Chap2/Unification.eps>
 (epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
- <Chap2/Unification-eps-converted-to.pdf, id=117, 375.4025pt x 257.96375pt>
+ <Chap2/Unification-eps-converted-to.pdf, id=122, 375.4025pt x 257.96375pt>
 File: Chap2/Unification-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chap2/Unification-eps-converted-to.pdf>
@@ -508,7 +811,7 @@ Package pdftex.def Info: Chap2/Unification-eps-converted-to.pdf used on input l
 ine 44.
 (pdftex.def)             Requested size: 300.3224pt x 206.37126pt.
  [4] [5 <./Chap2/Unification-eps-converted-to.pdf>] [6]
-<Chap2/ATLAS_SE_WithDimensions_Corrected.png, id=154, 3312.375pt x 2107.875pt>
+<Chap2/ATLAS_SE_WithDimensions_Corrected.png, id=159, 3312.375pt x 2107.875pt>
 File: Chap2/ATLAS_SE_WithDimensions_Corrected.png Graphic file (type png)
 
 <use Chap2/ATLAS_SE_WithDimensions_Corrected.png>
@@ -516,7 +819,7 @@ Package pdftex.def Info: Chap2/ATLAS_SE_WithDimensions_Corrected.png used on in
 put line 98.
 (pdftex.def)             Requested size: 433.62pt x 275.93102pt.
  [7]
-<Chap2/0803022_01.jpg, id=167, 903.375pt x 732.7375pt>
+<Chap2/0803022_01.jpg, id=172, 903.375pt x 732.7375pt>
 File: Chap2/0803022_01.jpg Graphic file (type jpg)
 
 <use Chap2/0803022_01.jpg>
@@ -530,7 +833,7 @@ his)
 >] [9 <./Chap2/0803022_01.jpg>]) [10]
 CHAPTER III.
 (./Chap3/chap3.tex
-<Chap3/ATLAS_SUSY_Summary.png, id=196, 2913.88625pt x 2165.08875pt>
+<Chap3/ATLAS_SUSY_Summary.png, id=201, 2913.88625pt x 2165.08875pt>
 File: Chap3/ATLAS_SUSY_Summary.png Graphic file (type png)
 
 <use Chap3/ATLAS_SUSY_Summary.png>
@@ -539,7 +842,7 @@ Package pdftex.def Info: Chap3/ATLAS_SUSY_Summary.png used on input line 8.
  [11
 
 ] [12 <./Chap3/ATLAS_SUSY_Summary.png>]
-<Chap3/fig_19b.png, id=214, 1976.38374pt x 1700.3525pt>
+<Chap3/fig_19b.png, id=219, 1976.38374pt x 1700.3525pt>
 File: Chap3/fig_19b.png Graphic file (type png)
 
 <use Chap3/fig_19b.png>
@@ -557,7 +860,7 @@ eps-converted-to.pdf Chap2/C1C1-llvvN1N1-slsnu.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf, id=220, 128.48pt x 110.4125pt>
+<Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf, id=225, 128.48pt x 110.4125pt>
 File: Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf Graphic file (type pdf)
 <use Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf>
 Package pdftex.def Info: Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf used on
@@ -569,49 +872,59 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13
 
- <./Chap3/fig_19b.png>]
-<Chap3/figaux_004a.png, id=231, 1138.2525pt x 817.0525pt>
+ <./Chap3/fig_19b.png>] [14 <./Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf>]
+ <Chap3/figaux_004a.png, id=242, 1138.2525pt x 817.0525pt>
 File: Chap3/figaux_004a.png Graphic file (type png)
 
 <use Chap3/figaux_004a.png>
 Package pdftex.def Info: Chap3/figaux_004a.png used on input line 49.
 (pdftex.def)             Requested size: 227.64647pt x 163.40761pt.
- [14 <./Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf>] [15 <./Chap3/figaux_00
-4a.png>]) (./thesis.bbl [16] [17
+ [15 <./Chap3/figaux_004a.png>]
+Overfull \hbox (32.03333pt too wide) in paragraph at lines 72--73
+[]$\OT1/cmr/bx/n/12 ^^A\OML/cmm/b/it/12 ^^^\OT1/cmr/bx/n/12 (\OML/cmm/b/it/12 X
+; Y\OT1/cmr/bx/n/12 )$ \OT1/cmr/m/n/12 The sep-a-ra-tion be-tween two re-con-st
+ructed ob-jects $\OML/cmm/m/it/12 X$ \OT1/cmr/m/n/12 and $\OML/cmm/m/it/12 Y$\O
+T1/cmr/m/n/12 , e.g. $\OT1/cmr/bx/n/12 ^^A\OML/cmm/b/it/12 ^^^\OT1/cmr/bx/n/12 
+(\OML/cmm/b/it/12 E[]; `\OT1/cmr/bx/n/12 )$\OT1/cmr/m/n/12 . 
+ []
 
-] [18])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
- [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+[16]) (./thesis.bbl [17] [18
 
-(./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
+] [19])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
+ [20]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
+ (./thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BBD2AC9D742EED59DFEAB37597D062DA;977.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
+(rerunfilecheck)             Checksum: 71D6CA6687C88200A7D0325CCB7D978C;1079.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
  ) 
 Here is how much of TeX's memory you used:
- 8598 strings out of 494985
- 126428 string characters out of 6180356
- 218267 words of memory out of 5000000
- 11583 multiletter control sequences out of 15000+600000
- 11401 words of font info for 43 fonts, out of 8000000 for 9000
+ 15149 strings out of 494985
+ 263403 string characters out of 6180356
+ 336086 words of memory out of 5000000
+ 18013 multiletter control sequences out of 15000+600000
+ 14779 words of font info for 54 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 36i,12n,44p,2253b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,12n,44p,10463b,589s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (22 pages, 8539901 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb>
+Output written on thesis.pdf (23 pages, 8572485 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 265 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 344 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
