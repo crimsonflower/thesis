@@ -1,14 +1,14 @@
 \section{Introduction}
 
-Searches for various BSM theories including SUSY have been performed at LHC  alongside searching for the Higgs and performing different SM analyses. Many SUSY searches were conducted targeting the production of squarks and gluinos. This was motivated by a larger theoretical cross-section and therefore higher probability of producing coloured superpartners \cite{borschensky2014squark}. Up to this moment no statistically significant excess over SM has been detected and exclusion limits were placed on masses of SUSY particles. Figure~\ref{fig:SUSYlimit} shows the latest data on the masses that have been excluded for supersymmetric particles in various production scenarios. The lower limits on the masses of most squarks and gluinos in different searches significantly exceed 1 TeV \citep{aad2015summary}. As a consequence, if their production occurs, it is either extremely rare at present energies or requires higher energy of collision to leave an identifiable signature. 
+Searches for various BSM theories including SUSY have been performed at the LHC  alongside searching for the Higgs and performing different SM analyses. Many SUSY searches were conducted targeting the production of squarks and gluinos. This was motivated by a larger theoretical cross-section and therefore higher probability of producing coloured superpartners \cite{borschensky2014squark}. Up to this moment no statistically significant excess over the SM has been detected and exclusion limits were placed on masses of SUSY particles. Figure~\ref{fig:SUSYlimit} shows the latest data on the masses that have been excluded for supersymmetric particles in various production scenarios. The lower limits on the masses of most squarks and gluinos in different searches significantly exceed 1 TeV \citep{aad2015summary}. As a consequence, if their production occurs, it is either extremely rare at present energies or requires higher energy of collision to leave an identifiable signature. 
 
 This thesis's research will focus on the electroweak production as one of the possible SUSY particle production scenarios. Sleptons and gauginos are produced in electroweak production processes and are not affected by the strong force. They have smaller cross-sections compared to squarks and gluinos, so their theoretical production rate is smaller. However, if their masses are small compared to the strongly interacting sparticles, SUSY production will likely be dominated by electroweak production where sparticles have smaller mass and current energy might be enough to produce them in quantities that would allow their detection \citep{atlas2015search}. 
 %\newgeometry{left=1cm,right=1cm}
-\begin{figure}[!ht]
+\begin{sidewaysfigure}[!ht]
 \includegraphics[width=\textwidth]{Chap3/ATLAS_SUSY_Summary.png}
 \caption[Exclusion limits of ATLAS searches for Supersymmetry]{Exclusion limits of ATLAS searches for Supersymmetry. Squark and gluon masses are predominantly above the 1 TeV. \citep{SUSYlimits}}
 \label{fig:SUSYlimit}
-\end{figure}
+\end{sidewaysfigure}
 \cleardoublepage
 
 
@@ -21,7 +21,7 @@ So far searches in the electroweak region have been unable to find evidence of s
 \end{figure}
 
 These results are taken from the  analysis performed at $\sqrt{s}=$8 TeV and integrated luminosity of 20.3 fb\textsuperscript{-1} \citep{atlas2015search}. The search was performed based on various scenarios of the MSSM, involving electroweak production of charginos and neutralinos. The turquoise and blue lines represent decay scenarios that are relevant for this paper as they show information on slepton-mediated decays of a chargino pair. 
-In particular, the production of $\tilde{\chi}^{+}_{1}\tilde{\chi}^{-}_{1}$ pair decaying through a slepton ($\tilde{\ell}$) with final states containing two opposite sign leptons will be considered (see Fig. \ref{fig:EWchargino}). 
+In particular, the production of a  $\tilde{\chi}^{+}_{1}\tilde{\chi}^{-}_{1}$ pair decaying through a slepton ($\tilde{\ell}$) with final states containing two opposite sign leptons will be considered (see Fig. \ref{fig:EWchargino}). 
 \begin{figure}[!h]
   \centering   	
   	\captionsetup{width=0.8\textwidth}
@@ -49,11 +49,11 @@ In the nomenclature used at LHC and in this thesis, electrons and muons are call
 \section{General search methods}
 Detecting new physics events at LHC requires using computational and statistical methods that can deal with the type of information a particle accelerator produces. The data is initially collected using triggers corresponding to the type of events under analysis. Each event has a large number of physical characteristics such as momentum, energy, mass, multiplicities, etc. The numbers representing them are all stored in a data structure which then can be accessed, modified and analysed using software tools. 
 
-The cornerstone of all accelerator physics analyses is the correct estimation of background events. All background events represent physics that is already known and that has some similar or identical features with the processes we wish to study. For instance, this thesis focusses on the reactions that have precisely two oppositely charged leptons in their final states. A number of processes well described by the standard model share this characteristic and therefore will form the background. 
+The cornerstone of all accelerator physics analyses is the correct estimation of background events. All background events represent physics that is already known and that has some similar or identical features with the processes under investigation. For instance, this thesis focusses on the reactions that have precisely two oppositely charged leptons in their final states. A number of processes well described by the standard model share this characteristic and therefore will form the background. 
 
 The task of correctly identifying background is therefore crucial in the process of searches for new physics events. Monte Carlo (MC) simulations are used to generate background events distribution samples according to a probability density function of a particular process. In this thesis MC simulated data samples are used to model SM background events along with SUSY signal events. All the samples include events that can result in dileptonic decays. 
 
-The data is then overlaid on the simulated background to see whether there is a disagreement between data and background. If there is a significantly large excess of data over background it can lead to new discoveries such as existence of a new particle.  The presence of a new particle can reveal itself in a number of ways. The easiest case to detect is finding an abnormality in mass distribution, as was the case with the discovery of the Higgs. The narrow peak over a smooth line in mass distribution of diphoton events constituted a significant excess over SM predictions and was in agreement with theoretical predictions \citep{Aad:2012tfa}. 
+The data is then overlaid on the simulated background to see whether there is a disagreement between data and background. If there is a significantly large excess of data over background it can lead to new discoveries such as the existence of a new particle.  The presence of a new particle can reveal itself in a number of ways. The straightforward way to detect a new physics event is an abnormality in some distribution of the data, as was the case with the discovery of the Higgs. The narrow peak over a smooth line in mass distribution of diphoton events constituted a significant excess over the SM predictions and was in agreement with theoretical predictions \citep{Aad:2012tfa}. 
 
 \begin{figure}
 	\centering
@@ -62,13 +62,13 @@ The data is then overlaid on the simulated background to see whether there is a 
 	\caption[Invariant mass of diphoton events: discovery of the Higgs]{Invariant mass distribution of diphoton 				candidates for the combined $\sqrt{s}$ = 7 TeV and $\sqrt{s}$ = 8 TeV 			data samples. The mass of the Higgs corresponds to the peak at 126.5 				GeV \citep{Aad:2012tfa}.}
 \end{figure}
 
-Unfortunately, this method does not work well for SUSY particles and other techniques have to be used. Standard search techniques involve defining \textbf{signal regions} in data distributions that are sensitive to possible SUSY signals and looking whether there is a significant excess over SM background predictions in these regions. 
-This also includes looking for abnormal tails in distributions of different variables that are not in agreement with SM predictions. These variables will be discussed in the subsection \ref{subsec:Variables}. Signal regions are usually determined using the "cut-and-count" approach that will be discussed in the subsection \ref{subsec:stat}.
+Unfortunately, this method does not work well for SUSY particles and other techniques have to be used. Standard search techniques involve defining \textbf{signal regions} in data distributions that are sensitive to possible SUSY signals and looking whether there is a significant excess over the SM background predictions in these regions. 
+This also includes looking for abnormal tails in distributions of different variables that are not in agreement with the SM predictions. These variables will be discussed in the subsection \ref{subsec:Variables}. Signal regions are usually determined using the "cut-and-count" approach that will be discussed in the subsection \ref{subsec:stat}.
 
 \section{Overview of background processes}
-In order to distinguish new physics events from SM events it is necessary to be able to suppress all SM events that have the same final state. Within the scope of this thesis that includes events that have precisely two leptons with opposite charge. The processes described in this section constitute MC simulated background that was used in the search for signal regions.
+In order to distinguish new physics events from the SM events it is necessary to be able to suppress all SM events that have the same final state. Within the scope of this thesis that includes events that have precisely two leptons with opposite charge. The processes described in this section constitute MC simulated background that was used in the search for signal regions.
 
-The $Z$+jets background comes from the production of jets of particles in association with a $Z$ boson, which then decays into two leptons. $t\bar{t}$ pair creation is a common process in $pp$ collisions and is one of the dominant processes in dilepton decays. The quark-antiquark pair decays via $W^+bW^-\bar{b}$ intermediate state into three different final states with either no leptons, one lepton, or two leptons (here leptons include the tau). The latter decay cascade is $t\bar{t} \to W^+bW^-\bar{b} \to \ell \nu \ell \nu b \bar{b}$. Final states that include electrons and muons constitute around 5\% of the entire $t\bar{t}$ production \citep{Wagner:2010wd}. Thus, the $t\bar{t}$ production is one of the main background processes in searches for BSM events in various channels, not only those involving two-lepton final states. 
+The $Z$+jets background comes from the production of jets of particles in association with a $Z$ boson, which then decays into two leptons. $t\bar{t}$ pair creation is a common process in $pp$ collisions and is one of the dominant processes in dilepton decays. The quark-antiquark pair decays via the $W^+bW^-\bar{b}$ intermediate state into three different final states with either no leptons, one lepton, or two leptons (here leptons include the tau). The latter decay cascade is $t\bar{t} \to W^+bW^-\bar{b} \to \ell \nu \ell \nu b \bar{b}$. Final states that include electrons and muons constitute around 5\% of the entire $t\bar{t}$ production \citep{Wagner:2010wd}. Thus, the $t\bar{t}$ production is one of the main background processes in searches for BSM events in various channels, not only those involving two-lepton final states. 
 
 The diboson production channel is dominated by the production of the $WW$ pair with subsequent decay into two lepton/neutrino pairs. Contributions also come from the $ZV$ channel, where $V = W$ or $Z$.
 Other sources of dilepton final states are $W$+jets and single-top quark production processes. Both of them have a decay channel with final states containing a lepton and a neutrino, however their overall contribution to the background is small compared to diboson, $t\bar{t}$, and $Z$+jets. 
@@ -93,7 +93,7 @@ A set of discriminating variables associated with searches for evidence of SUSY 
 
 \begin{itemize}[leftmargin=0cm]
 \item[]$\bm{p^X_T}$ The transverse momentum of an object $X$.
-\item[]$\bm{\Delta\phi(X,Y)}$ The separation between two reconstructed objects $X$ and $Y$, e.g. ${\Delta\phi(E_{\text T}^{miss},\ell)}$.
+\item[]$\bm{\Delta\phi(X,Y)}$ The difference in the azimuthal angle between two reconstructed objects $X$ and $Y$, e.g. ${\Delta\phi(E_{\text T}^{miss},\ell)}$.
 \item[]$\bm{E_{\text T}^{\text {miss}}}$ The magnitude of the missing transverse momentum of the event. Missing transverse momentum is defined as the negative vector sum of the transverse momenta of all identified objects.
 \item[]$\bm{E^{\text{miss,rel}}_{\text T}}$ This value is defined as 
 \[
@@ -110,7 +110,7 @@ where $\Delta\phi(E_{\text T}^{\text {miss}},\ell/j)$ is the azimuthal angle bet
 
 Another derived event variable is the so-called "stransverse mass"  $m_{\text {T2}}$ which was introduced as a way to infer information about undetected particles \citep{Lester:1999tx,Barr:2003rg}. Along with that, it is also proved useful in suppressing backgrounds. It is used to bound the masses of a pair of supersymmetric particles each of them decaying into one visible and one invisible particle. It is a function of the momenta of two visible particles and the missing transverse momentum of an event. Its abbreviated mathematical description is as follows
 \begin{equation}
-m_{\text{T2}} = \min_{\mathbf{q}_{\text T}}\Big [\max \Big ( m_{\text T} (\mathbf{p}_{\text T}^{\ell 1},\mathbf{q}_{\text T}),m_{\text T}(\mathbf{p}_{\text T}^{\ell 2},\mathbf{p}_{\text T}^{miss}-\mathbf{q}_{\text T}) \Big ) \Big ] ,
+m_{\text{T2}} = \min_{\mathbf{q}_{\text T}}\Big [\max \Big ( m_{\text T} (\mathbf{p}_{\text T}^{\ell 1},\mathbf{q}_{\text T}),m_{\text T}(\mathbf{p}_{\text T}^{\ell 2},\mathbf{p}_{\text T}^{\text{miss}}-\mathbf{q}_{\text T}) \Big ) \Big ] ,
 \end{equation}
 where $\mathbf{p}_{\text T}^{\ell 1}$ and $\mathbf{p}_{\text T}^{\ell 2}$ are the transverse momenta of the two leptons, and $ \mathbf{q}_{\text T}$ is a transverse vector that minimizes the larger of two transverse masses $m_{\text T}$ which is defined as
 \begin{equation}
@@ -129,18 +129,25 @@ S = N -B
 \end{equation}
 The uncertainty of $S$ is then
 \begin{equation}
-\sigma^2(S) = \sigma^2(N) + \sigma^2(B) = N+\sigma^2(B)
+\sigma^2(S) = \sigma^2(N) + \sigma^2(B) = N+\sigma^2(B).
 \end{equation}
-$N$ is a mean value of a Poisson process where uncertainty is $\sigma = \sqrt{\lambda}$, so squaring it back just yields $N$. 
+$N$ is a mean value of a distribution described by Poisson statistics where the uncertainty is $\sigma = \sqrt{\lambda}$, so squaring it back just yields $N$. 
 $\sigma(B)$ is the uncertainty on the estimated average of the $B$ value. 
 Because estimation of the background is done with large MC statistics the $\sigma(B)$ in this case can be treated as negligible. So what is left is
 \begin{equation}
-\frac{S}{\sigma(S)} = \frac{S}{\sqrt{N}} = \frac{S}{\sqrt{S+B}}
+\frac{S}{\sigma(S)} = \frac{S}{\sqrt{N}} = \frac{S}{\sqrt{S+B}}.
 \end{equation}
-This determines the number of standard deviations away from 0 of the signal. Due to SUSY signals being very small compared to the background further simplification can be done, so that the above expression becomes
+This determines the number of standard deviations away from the 0 of the signal. Due to SUSY signals being very small compared to the background, further simplification can be done, so that the above expression becomes
 \begin{equation}
-\frac{s}{\sigma(S)}\simeq \frac{S}{\sqrt{B}}
+\frac{S}{\sigma(S)}\simeq \frac{S}{\sqrt{B}}.
 \end{equation} 
 
-Here the important concept of p-value will be introduced. 
+The process of scientific discovery relies predominantly on using statistical methods to justify new discoveries and safeguard against false ones. It is especially important in HEP as it operates on quantum level where almost everything is described using probabilistic arguments (a particle's wave function being the most obvious example).  
+Any potential discovery in HEP must comply with stringent requirements posed by statistical inference. If some signal has a mean that is away from the mean of the background-only sample by three standard deviations (3$\sigma$), it is referred to as "evidence". If it is a 5$\sigma$ event then it is claimed as a discovery. To put this into perspective, the chance of a 5$\sigma$ event being just random fluctuation is around 1 in 3.5 million. 
+The expression $S/\sqrt{B}$ thus is a rough estimate of the number of standard deviations and can serve as a metric to assess the quality of candidate signal regions. 
+
+
+
+
  
+

@@ -5,7 +5,7 @@
 \contentsline {chap}{\numberline {\hbox { }\hfill \bf I.\hspace {5pt}}{\bf Introduction}}{1}{chapter.1}
 \hbox { }
 \hbox { }
-\contentsline {chap}{\numberline {\hbox { }\hfill \bf II.\hspace {5pt}}{\bf Background information (provisional title)}}{3}{chapter.2}
+\contentsline {chap}{\numberline {\hbox { }\hfill \bf II.\hspace {5pt}}{\bf Background information}}{3}{chapter.2}
 \hbox { }
 \contentsline {section}{\numberline {2.1}The Standard Model}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}The overview of the Standard Model}{3}{subsection.2.1.1}
