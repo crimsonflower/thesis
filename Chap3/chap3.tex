@@ -1,8 +1,8 @@
 \section{Introduction}
 
-Searches for various BSM theories including SUSY have been performed at LHC  alongside searching for the Higgs and performing different SM anlyses. Many SUSY searches were conducted targeting the production of squarks and gluinos. This was motivated by a larger theoretical cross-section and therefore higher probability of producing coloured superpartners \cite{borschensky2014squark}. Up to this moment no statistically significant excess over SM has been detected and exclusion limits were placed on masses of SUSY particles. Figure~\ref{fig:SUSYlimit} shows the latest data on the masses that have been excluded for supersymmetric particles in various production scenarios. The lower limits on the masses of most squarks and gluinos in different searches significantly exceed 1 TeV \citep{aad2015summary}. As a consequence, if their production occurs, it is either extremely rare at present energies or requires higher energy of collision to leave an identifiable signature. 
+Searches for various BSM theories including SUSY have been performed at LHC  alongside searching for the Higgs and performing different SM analyses. Many SUSY searches were conducted targeting the production of squarks and gluinos. This was motivated by a larger theoretical cross-section and therefore higher probability of producing coloured superpartners \cite{borschensky2014squark}. Up to this moment no statistically significant excess over SM has been detected and exclusion limits were placed on masses of SUSY particles. Figure~\ref{fig:SUSYlimit} shows the latest data on the masses that have been excluded for supersymmetric particles in various production scenarios. The lower limits on the masses of most squarks and gluinos in different searches significantly exceed 1 TeV \citep{aad2015summary}. As a consequence, if their production occurs, it is either extremely rare at present energies or requires higher energy of collision to leave an identifiable signature. 
 
-This thesis's research will focus on the electroweak production as one of the possible SUSY particle production scenario. Sleptons and gauginos are produced in electroweak production processes and are not affected by the strong force. They have smaller cross-sections compared to squarks and gluinos, so their theoretical production rate is smaller. However, if their masses are small compared to the strongly interacting sparticles, SUSY production will likely be dominated by electroweak production where sparticles have smaller mass and current energy might be enough to produce them in quantities that would allow their detection \citep{atlas2015search}. 
+This thesis's research will focus on the electroweak production as one of the possible SUSY particle production scenarios. Sleptons and gauginos are produced in electroweak production processes and are not affected by the strong force. They have smaller cross-sections compared to squarks and gluinos, so their theoretical production rate is smaller. However, if their masses are small compared to the strongly interacting sparticles, SUSY production will likely be dominated by electroweak production where sparticles have smaller mass and current energy might be enough to produce them in quantities that would allow their detection \citep{atlas2015search}. 
 %\newgeometry{left=1cm,right=1cm}
 \begin{figure}[!ht]
 \includegraphics[width=\textwidth]{Chap3/ATLAS_SUSY_Summary.png}
@@ -20,8 +20,8 @@ So far searches in the electroweak region have been unable to find evidence of s
 	\caption[Exlcusion limits on electroweak production at ATLAS]{The 95\% CL exclusion limits on $\chi_1^+\chi_1^-$, $\chi_1^{\pm}\chi_2^0$ and $\chi_2^0\chi_3^0$ production with $\tilde{\ell}$-mediated decays, as a function of the $\chi_1^{\pm},\,\chi_2^0$ and $\chi_1^0$ masses \citep{aad2016search}. }\label{fig:summaryplot}
 \end{figure}
 
-These results are taken from \citep{atlas2015search} analysis performed at $\sqrt{s}=$8 TeV and integrated luminosity of 20.3 fb\textsuperscript{-1}. The search was performed based on various scenarios of the MSSM, involving electroweak production of charginos and neutralinos. The turquoise and blue lines represent decay scenarios that are relevant for this paper as they show information on slepton-mediated decays of a chargino pair. 
-In particular, the production of $\tilde{\chi}^{+}_{1}\tilde{\chi}^{-}_{1}$ pair decaying through a slepton ($\tilde{\ell}$) with final states contatining two opposite sign leptons will be considered (see Fig. \ref{fig:EWchargino}). 
+These results are taken from the  analysis performed at $\sqrt{s}=$8 TeV and integrated luminosity of 20.3 fb\textsuperscript{-1} \citep{atlas2015search}. The search was performed based on various scenarios of the MSSM, involving electroweak production of charginos and neutralinos. The turquoise and blue lines represent decay scenarios that are relevant for this paper as they show information on slepton-mediated decays of a chargino pair. 
+In particular, the production of $\tilde{\chi}^{+}_{1}\tilde{\chi}^{-}_{1}$ pair decaying through a slepton ($\tilde{\ell}$) with final states containing two opposite sign leptons will be considered (see Fig. \ref{fig:EWchargino}). 
 \begin{figure}[!h]
   \centering   	
   	\captionsetup{width=0.8\textwidth}
@@ -63,14 +63,14 @@ The data is then overlaid on the simulated background to see whether there is a 
 \end{figure}
 
 Unfortunately, this method does not work well for SUSY particles and other techniques have to be used. Standard search techniques involve defining \textbf{signal regions} in data distributions that are sensitive to possible SUSY signals and looking whether there is a significant excess over SM background predictions in these regions. 
-This also includes looking for abnormal tails in distributions of different variables that are not in agreement with SM predictions. These variables will be discussed in the subsection \ref{subsec:Variables}. Signal regions are usually determined using cut-and-count approach that will be discussed in the subsection \ref{subsec:stat}.
+This also includes looking for abnormal tails in distributions of different variables that are not in agreement with SM predictions. These variables will be discussed in the subsection \ref{subsec:Variables}. Signal regions are usually determined using the "cut-and-count" approach that will be discussed in the subsection \ref{subsec:stat}.
 
 \section{Overview of background processes}
 In order to distinguish new physics events from SM events it is necessary to be able to suppress all SM events that have the same final state. Within the scope of this thesis that includes events that have precisely two leptons with opposite charge. The processes described in this section constitute MC simulated background that was used in the search for signal regions.
 
-The $Z$+jets background comes from the production of jets of particles in association with a $Z$ boson, which then decays into two leptons. $t\bar{t}$ pair creation is a common process in $pp$ collisions and is one of the dominant processes in dilepton decays. The quark-antiquark pair decays via $W^+bW^-\bar{b}$ intermediate state into three different final states with no leptons, one lepton, and two leptons (here leptons include the tau). The latter decay cascade is $t\bar{t} \to W^+bW^-\bar{b} \to \ell \nu \ell \nu b \bar{b}$. Final states that include electrons and muons constitute around 5\% of the entire $t\bar{t}$ production \citep{Wagner:2010wd}. Thus, the $t\bar{t}$ production is one of the main background processes in searches for BSM events in various channels, not only those involving two-lepton final states. 
+The $Z$+jets background comes from the production of jets of particles in association with a $Z$ boson, which then decays into two leptons. $t\bar{t}$ pair creation is a common process in $pp$ collisions and is one of the dominant processes in dilepton decays. The quark-antiquark pair decays via $W^+bW^-\bar{b}$ intermediate state into three different final states with either no leptons, one lepton, or two leptons (here leptons include the tau). The latter decay cascade is $t\bar{t} \to W^+bW^-\bar{b} \to \ell \nu \ell \nu b \bar{b}$. Final states that include electrons and muons constitute around 5\% of the entire $t\bar{t}$ production \citep{Wagner:2010wd}. Thus, the $t\bar{t}$ production is one of the main background processes in searches for BSM events in various channels, not only those involving two-lepton final states. 
 
-Diboson production channel is dominated by the production of $WW$ pair with subsequent decay into two lepton/neutrino pairs. Contributions also come from $ZV$ channel, where $V = W$ or $Z$.
+The diboson production channel is dominated by the production of the $WW$ pair with subsequent decay into two lepton/neutrino pairs. Contributions also come from the $ZV$ channel, where $V = W$ or $Z$.
 Other sources of dilepton final states are $W$+jets and single-top quark production processes. Both of them have a decay channel with final states containing a lepton and a neutrino, however their overall contribution to the background is small compared to diboson, $t\bar{t}$, and $Z$+jets. 
 All the MC background predictions used in this thesis belong to one of the categories described in this section. 
 
@@ -108,11 +108,11 @@ where $\Delta\phi(E_{\text T}^{\text {miss}},\ell/j)$ is the azimuthal angle bet
 \item[]$\bm{m_{\ell \ell}}$ The invariant mass of the two leptons.
 \end{itemize}
 
-Another derived event variable is the so-called "stransverse mass"  $m_{\text {T2}}$ which was introduced as a way to infer information about undetected particles \citep{Lester:1999tx,Barr:2003rg}. Along with that it is also proved useful in suppressing backgrounds. It is used to bound the masses of a pair of supersymetric particles each of them decaying into one visible and one invisible particle. It is a function of the momenta of two visible particles and the missing transverse momentum of an event. Its short mathematical description is as follows
+Another derived event variable is the so-called "stransverse mass"  $m_{\text {T2}}$ which was introduced as a way to infer information about undetected particles \citep{Lester:1999tx,Barr:2003rg}. Along with that, it is also proved useful in suppressing backgrounds. It is used to bound the masses of a pair of supersymmetric particles each of them decaying into one visible and one invisible particle. It is a function of the momenta of two visible particles and the missing transverse momentum of an event. Its abbreviated mathematical description is as follows
 \begin{equation}
 m_{\text{T2}} = \min_{\mathbf{q}_{\text T}}\Big [\max \Big ( m_{\text T} (\mathbf{p}_{\text T}^{\ell 1},\mathbf{q}_{\text T}),m_{\text T}(\mathbf{p}_{\text T}^{\ell 2},\mathbf{p}_{\text T}^{miss}-\mathbf{q}_{\text T}) \Big ) \Big ] ,
 \end{equation}
-where $\mathbf{p}_{\text T}^{\ell 1}$ and $\mathbf{p}_{\text T}^{\ell 2}$ are the transverse momenta of the two leptons, and$ \mathbf{q}_{\text T})$ is a transverse vector that minimizes the larger of two transverse masses $m_{\text T}$ which is defined as
+where $\mathbf{p}_{\text T}^{\ell 1}$ and $\mathbf{p}_{\text T}^{\ell 2}$ are the transverse momenta of the two leptons, and $ \mathbf{q}_{\text T}$ is a transverse vector that minimizes the larger of two transverse masses $m_{\text T}$ which is defined as
 \begin{equation}
 m_{\text T}(\mathbf{p}_{\text T},\mathbf{q}_{\text T}) = \sqrt{2(p_{\text T}q_{\text T} - \mathbf{p}_{\text T} \cdot \mathbf{q}_{\text T})}.
 \end{equation}
@@ -120,10 +120,10 @@ m_{\text T}(\mathbf{p}_{\text T},\mathbf{q}_{\text T}) = \sqrt{2(p_{\text T}q_{\
 
 \section{Cut-and-count approach and test statistics}
 \label{subsec:stat}
-As was discussed previously a good signal region retains as many signal events as possible while at the same time cutting off background events. The way to suppress the background is to use successive cuts. The cuts are based on determining physical quantities that are able to discriminate between signal and background. The choice for a single cut is motivated both by theoretical considerations and the shapes of the MC   signal and background distributions. 
+As discussed previously, a good signal region retains as many signal events as possible while at the same time cutting off background events. The way to suppress the background is to use successive cuts. The cuts are based on determining physical quantities that are able to discriminate between signal and background. The choice for a single cut is motivated both by theoretical considerations and the shapes of the MC   signal and background distributions. 
 
 To optimize a cut or a set of cuts a metric that shows their discriminating power is needed. The numerical expression of how well a cut performs is given by a score function and its result will be referred to as "significance". The score function is constructed in the following way.
-The total number of events in a particular selection $N$, and it is the sum of $S$ and $B$, which refer to the number of signal and background events respectively. And this gives
+The total number of events in a particular selection is $N$, and it is the sum of $S$ and $B$. The latter two refer to the number of signal and background events respectively. This gives the following expression
 \begin{equation}
 S = N -B
 \end{equation}
@@ -131,8 +131,8 @@ The uncertainty of $S$ is then
 \begin{equation}
 \sigma^2(S) = \sigma^2(N) + \sigma^2(B) = N+\sigma^2(B)
 \end{equation}
-$N$ is a mean value of a Poisson process where uncertainty is $\sigma = \sqrt{\lambda}$, so squaring it back gives just $N$. 
-$\sigma(B)$ is the uncertainty on the estimated average of $B$ value. 
+$N$ is a mean value of a Poisson process where uncertainty is $\sigma = \sqrt{\lambda}$, so squaring it back just yields $N$. 
+$\sigma(B)$ is the uncertainty on the estimated average of the $B$ value. 
 Because estimation of the background is done with large MC statistics the $\sigma(B)$ in this case can be treated as negligible. So what is left is
 \begin{equation}
 \frac{S}{\sigma(S)} = \frac{S}{\sqrt{N}} = \frac{S}{\sqrt{S+B}}
