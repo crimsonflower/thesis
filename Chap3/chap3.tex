@@ -29,10 +29,13 @@ In particular, the production of a  $\tilde{\chi}^{+}_{1}\tilde{\chi}^{-}_{1}$ p
 \caption[Feynman diagram of slepton-mediated chargino decay]{Electroweak chargino pair production in proton-proton collisions with intermediate slepton in the decay process.}\label{fig:EWchargino}
 \end{figure}  
 
-The cross-section of this production process depends on the mass of the chargino - less heavy ones are more likely to be produced and therefore have a larger cross-sections. Fig. \ref{fig:xsec} shows the distribution of the theoretical cross sections depending on the mass of the chargino.
-The cross sections for this process were obtained from \citep{Fuks:2012qx,Fuks:2013vua}.
+In this thesis three different models of mass-splitting between the chargino and the neutralino will be considered. Denoted by the pair of numbers assigned to masses (in GeV) of the chargino and the neutralino respectively, they are 600-100, 400-200, and 200-150.  
+For all of them the mass of the intermediate slepton is set to be $m_{\bar{\ell}} = 0.5(m_{\tilde{\chi}_1^{\pm}}+\tilde{\chi}_1^{0})$. 
 
-\begin{figure}
+The cross-section of the investigated production process depends on the mass of the chargino - lighter ones are more likely to be produced and therefore have a larger cross-sections. Fig. \ref{fig:xsec} shows the distribution of the theoretical cross sections depending on the mass of the chargino.
+The cross sections for this process were obtained from \citep{Fuks:2012qx,Fuks:2013vua}. 
+
+\begin{figure}[!h]
 \centering
  \captionsetup{width=0.8\textwidth}
 	\includegraphics[scale=0.4]{Chap3/c1c1_wino}
@@ -53,13 +56,14 @@ The cornerstone of all accelerator physics analyses is the correct estimation of
 
 The task of correctly identifying background is therefore crucial in the process of searches for new physics events. Monte Carlo (MC) simulations are used to generate background events distribution samples according to a probability density function of a particular process. In this thesis MC simulated data samples are used to model SM background events along with SUSY signal events. All the samples include events that can result in dileptonic decays. 
 
-The data is then overlaid on the simulated background to see whether there is a disagreement between data and background. If there is a significantly large excess of data over background it can lead to new discoveries such as the existence of a new particle.  The presence of a new particle can reveal itself in a number of ways. The straightforward way to detect a new physics event is an abnormality in some distribution of the data, as was the case with the discovery of the Higgs. The narrow peak over a smooth line in mass distribution of diphoton events constituted a significant excess over the SM predictions and was in agreement with theoretical predictions \citep{Aad:2012tfa}. 
+The data is then overlaid on the simulated background to see whether there is a disagreement between data and background. If there is a significantly large excess of data over background it can lead to new discoveries such as the existence of a new particle.  The presence of a new particle can reveal itself in a number of ways. The straightforward way to detect a new physics event is an abnormality in some distribution of the data, as was the case with the discovery of the Higgs (see Fig. \ref{Higgs}). The narrow peak over a smooth line in mass distribution of diphoton events constituted a significant excess over the SM predictions and was in agreement with theoretical predictions \citep{Aad:2012tfa}. 
 
-\begin{figure}
+\begin{figure}[!h]
 	\centering
 	\captionsetup{width=0.8\textwidth}
 	\includegraphics[scale=0.2]{Chap3/figaux_004a}
 	\caption[Invariant mass of diphoton events: discovery of the Higgs]{Invariant mass distribution of diphoton 				candidates for the combined $\sqrt{s}$ = 7 TeV and $\sqrt{s}$ = 8 TeV 			data samples. The mass of the Higgs corresponds to the peak at 126.5 				GeV \citep{Aad:2012tfa}.}
+	\label{Higgs}
 \end{figure}
 
 Unfortunately, this method does not work well for SUSY particles and other techniques have to be used. Standard search techniques involve defining \textbf{signal regions} in data distributions that are sensitive to possible SUSY signals and looking whether there is a significant excess over the SM background predictions in these regions. 
@@ -145,6 +149,9 @@ This determines the number of standard deviations away from the 0 of the signal.
 The process of scientific discovery relies predominantly on using statistical methods to justify new discoveries and safeguard against false ones. It is especially important in HEP as it operates on quantum level where almost everything is described using probabilistic arguments (a particle's wave function being the most obvious example).  
 Any potential discovery in HEP must comply with stringent requirements posed by statistical inference. If some signal has a mean that is away from the mean of the background-only sample by three standard deviations (3$\sigma$), it is referred to as "evidence". If it is a 5$\sigma$ event then it is claimed as a discovery. To put this into perspective, the chance of a 5$\sigma$ event being just random fluctuation is around 1 in 3.5 million. 
 The expression $S/\sqrt{B}$ thus is a rough estimate of the number of standard deviations and can serve as a metric to assess the quality of candidate signal regions. 
+
+\section{Computational tools}
+Most of the HEP analyses are performed with ROOT framework which was developed at CERN specifically for this purpose \citep{root}. It is a multi-purpose package that provides tools for big data processing, statistical analysis, visualisation and storage. It is written in C++ programming language, but also provides integration with other languages such as Python, Ruby, R, etc.  ROOT is especially convenient because it provides constructors and methods created specifically for the LHC geometry and the type of analyses it entails. All the computational manipulations and visualisations were performed in ROOT using applications written in C++ and Python. 
 
 
 

@@ -123,7 +123,10 @@ B.~Fuks, M.~Klasen, D.~R. Lamprea, and M.~Rothering, ``{Precision predictions
   Resummino}},'' {\em Eur. Phys. J. C}, vol.~73, p.~2480, 2013.
 
 \bibitem{xsec}
-{ATLAS collaboration}, ``13 tev c1c1 wino cross-section,'' 2016.
+{ATLAS Collaboration}, ``Nlo-nll wino-like chargino-chargino (c1c1) cross
+  sections.''
+  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVx1x1wino},
+  2016.
 
 \bibitem{Wagner:2010wd}
 W.~Wagner, ``{Top-Antitop-Quark Production and Decay Properties at the
@@ -146,5 +149,8 @@ C.~G. Lester and D.~J. Summers, ``{Measuring masses of semiinvisibly decaying
 \bibitem{Barr:2003rg}
 A.~Barr, C.~Lester, and P.~Stephens, ``{m(T2): The Truth behind the glamour},''
   {\em J. Phys.}, vol.~G29, pp.~2343--2363, 2003.
+
+\bibitem{root}
+``{ROOT Data Analysis Framework}.'' \url{https://root.cern.ch/}.
 
 \end{thebibliography}
