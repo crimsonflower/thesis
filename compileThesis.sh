@@ -1,5 +1,0 @@
-
-latex thesis.tex
-bibtex thesis
-latex thesis.tex
-latex thesis.tex
