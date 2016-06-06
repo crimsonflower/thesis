@@ -28,4 +28,4 @@
 \hbox { }
 \contentsline {section}{\numberline {4.1}First view}{21}{section.4.1}
 \contentsline {section}{\numberline {4.2}Cuts in the SF channel}{22}{section.4.2}
-\contentsline {chapter}{APPENDICES}{23}{section.4.2}
+\contentsline {chapter}{APPENDICES}{24}{table.caption.12}
