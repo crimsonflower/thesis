@@ -132,6 +132,10 @@ B.~Fuks, M.~Klasen, D.~R. Lamprea, and M.~Rothering, ``{Precision predictions
 W.~Wagner, ``{Top-Antitop-Quark Production and Decay Properties at the
   Tevatron},'' {\em Mod. Phys. Lett.}, vol.~A25, pp.~1297--1314, 2010.
 
+\bibitem{Marshall:2014mza}
+Z.~Marshall, ``{Simulation of Pile-up in the ATLAS Experiment},'' {\em J. Phys.
+  Conf. Ser.}, vol.~513, p.~022024, 2014.
+
 \bibitem{Aad:2016tuk}
 G.~Aad {\em et~al.}, ``{Search for supersymmetry at $\sqrt{s}=13$ TeV in final
   states with jets and two same-sign leptons or three leptons with the ATLAS
@@ -152,5 +156,15 @@ A.~Barr, C.~Lester, and P.~Stephens, ``{m(T2): The Truth behind the glamour},''
 
 \bibitem{root}
 ``{ROOT Data Analysis Framework}.'' \url{https://root.cern.ch/}.
+
+\bibitem{eltrig}
+{ATLAS Collaboration}, ``{Electron trigger performance in 2015 ATLAS data
+  (December 6, 2015) }.''
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/EgammaTriggerPublicResults#Electron_trigger_performance_AN2}.
+
+\bibitem{muontrig}
+{ATLAS Collaboration}, ``{Muon trigger performances in 2015 25ns data-taking
+  period}.''
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/MuonTriggerPublicResults#Muon_trigger_performances_in_201}.
 
 \end{thebibliography}

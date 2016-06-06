@@ -20,6 +20,12 @@
 \contentsline {section}{\numberline {3.2}General search methods}{14}{section.3.2}
 \contentsline {section}{\numberline {3.3}Overview of background processes}{16}{section.3.3}
 \contentsline {section}{\numberline {3.4}Event selection and $b$-tagging}{17}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Event variables used in the analysis}{17}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}Cut-and-count approach and test statistics}{18}{section.3.5}
+\contentsline {subsection}{\numberline {3.4.1}Event variables used in the analysis}{18}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Cut-and-count approach and test statistics}{19}{section.3.5}
 \contentsline {section}{\numberline {3.6}Computational tools}{20}{section.3.6}
+\hbox { }
+\contentsline {chap}{\numberline {\hbox { }\hfill \bf IV.\hspace {5pt}}{\bf Determining signal regions}}{21}{chapter.4}
+\hbox { }
+\contentsline {section}{\numberline {4.1}First view}{21}{section.4.1}
+\contentsline {section}{\numberline {4.2}Cuts in the SF channel}{22}{section.4.2}
+\contentsline {chapter}{APPENDICES}{23}{section.4.2}

@@ -43,7 +43,7 @@ The cross sections for this process were obtained from \citep{Fuks:2012qx,Fuks:2
 	\label{fig:xsec}
 \end{figure}
 
-In the nomenclature used at LHC and in this thesis, electrons and muons are called "light leptons". Taus are considered separately as they decay very promptly and therefore are very difficult to reconstruct. This thesis only focuses on final states containing electrons and muons and thus the designation "lepton" only refers to these particles.  
+In the nomenclature used at LHC and in this thesis, electrons and muons are called ``light leptons". Taus are considered separately as they decay very promptly and therefore are very difficult to reconstruct. This thesis only focuses on final states containing electrons and muons and thus the designation ``lepton" only refers to these particles.  
 
  
 
@@ -67,16 +67,20 @@ The data is then overlaid on the simulated background to see whether there is a 
 \end{figure}
 
 Unfortunately, this method does not work well for SUSY particles and other techniques have to be used. Standard search techniques involve defining \textbf{signal regions} in data distributions that are sensitive to possible SUSY signals and looking whether there is a significant excess over the SM background predictions in these regions. 
-This also includes looking for abnormal tails in distributions of different variables that are not in agreement with the SM predictions. These variables will be discussed in the subsection \ref{subsec:Variables}. Signal regions are usually determined using the "cut-and-count" approach that will be discussed in the subsection \ref{subsec:stat}.
+This also includes looking for abnormal tails in distributions of different variables that are not in agreement with the SM predictions. These variables will be discussed in the subsection \ref{subsec:Variables}. Signal regions are usually determined using the ``cut-and-count" approach that will be discussed in the subsection \ref{subsec:stat}.
 
 \section{Overview of background processes}
 In order to distinguish new physics events from the SM events it is necessary to be able to suppress all SM events that have the same final state. Within the scope of this thesis that includes events that have precisely two leptons with opposite charge. The processes described in this section constitute MC simulated background that was used in the search for signal regions.
 
-The $Z$+jets background comes from the production of jets of particles in association with a $Z$ boson, which then decays into two leptons. $t\bar{t}$ pair creation is a common process in $pp$ collisions and is one of the dominant processes in dilepton decays. The quark-antiquark pair decays via the $W^+bW^-\bar{b}$ intermediate state into three different final states with either no leptons, one lepton, or two leptons (here leptons include the tau). The latter decay cascade is $t\bar{t} \to W^+bW^-\bar{b} \to \ell \nu \ell \nu b \bar{b}$. Final states that include electrons and muons constitute around 5\% of the entire $t\bar{t}$ production \citep{Wagner:2010wd}. Thus, the $t\bar{t}$ production is one of the main background processes in searches for BSM events in various channels, not only those involving two-lepton final states. 
+The $Z$+jets background comes from the production of jets of particles in association with a $Z$ boson or a virtual photon (Drell-Yan process), which then decays into two leptons. $t\bar{t}$ pair creation is a common process in $pp$ collisions and is one of the dominant processes in dilepton decays. The quark-antiquark pair decays via the $W^+bW^-\bar{b}$ intermediate state into three different final states with either no leptons, one lepton, or two leptons (here leptons include the tau). The latter decay cascade is $t\bar{t} \to W^+bW^-\bar{b} \to \ell \nu \ell \nu b \bar{b}$. Final states that include electrons and muons constitute around 5\% of the entire $t\bar{t}$ production \citep{Wagner:2010wd}. Thus, the $t\bar{t}$ production is one of the main background processes in searches for BSM events in various channels, not only those involving two-lepton final states. 
 
 The diboson production channel is dominated by the production of the $WW$ pair with subsequent decay into two lepton/neutrino pairs. Contributions also come from the $ZV$ channel, where $V = W$ or $Z$.
 Other sources of dilepton final states are $W$+jets and single-top quark production processes. Both of them have a decay channel with final states containing a lepton and a neutrino, however their overall contribution to the background is small compared to diboson, $t\bar{t}$, and $Z$+jets. 
 All the MC background predictions used in this thesis belong to one of the categories described in this section. 
+
+A serious hindrance in LHC analyses is the phenomenon of ``pileup".  Among the collisions that produce events of interest there are additional collisions that contaminate the output with extra jets. Along with this, tighter spacing between bunches means that for a specific collision, additional jets might originate from a neighbouring collision as the sensitivity windows for many ATLAS subsystems are longer than 25 ns \citep{Marshall:2014mza}. Dealing with the increased pileup presents an additional challenge at the $\sqrt{s}=13$ TeV run, because of additional jet contamination of the data. 
+
+%Many of the subsystems have sensitivity windows longer than 25 ns, which is the interval between proton-proton bunch crossings.
 
 
 
@@ -84,11 +88,11 @@ All the MC background predictions used in this thesis belong to one of the categ
 \section{Event selection and $b$-tagging}
 
 Event reconstruction is the process of turning raw data into manageable format that includes quantities needed in physics analysis. An event has to pass certain identification criteria to be chosen for reconstruction. Correct identification of different physics objects at LHC includes a large number of dedicated algorithms which are not presented in this thesis, but are available elsewhere \citep{Aad:2016tuk}. 
-However, in this section a very general outline of the selection procedure for reactions that result in two leptonic decays will be given. All "signal" objects have to pass a set of criteria to obtain a high quality sample with minimum possible contamination.
+However, in this section a very general outline of the selection procedure for reactions that result in two leptonic decays will be given. All ``signal" objects have to pass a set of criteria to obtain a high quality sample with minimum possible contamination.
 
-Signal electrons are required to have $|\eta|<2.47$ and transverse momentum $p_{T}>10$ GeV. These are inferred from the calibrated  energy deposits in the EmCal and must have a matching ID track. Signal muons are reconstructed using information from MS and ID tracks and are required to have   $|\eta|<2.5$ and $p_{T}>10$ GeV. Jets are reconstructed using information from calorimeters and are divided into "central" and "forward" categories. Central jets must have $|\eta|<2.4$ and $p_{T}>20$ GeV. Forward jets are those with $2.4<|\eta|<4.5$ and $p_{T}>30$ GeV. 
+Signal electrons are required to have $|\eta|<2.47$ and transverse momentum $p_{T}>10$ GeV. These are inferred from the calibrated  energy deposits in the EmCal and must have a matching ID track. Signal muons are reconstructed using information from MS and ID tracks and are required to have   $|\eta|<2.5$ and $p_{T}>10$ GeV. Jets are reconstructed using information from calorimeters and are divided into ``central" and ``forward" categories. Central jets must have $|\eta|<2.4$ and $p_{T}>20$ GeV. Forward jets are those with $2.4<|\eta|<4.5$ and $p_{T}>30$ GeV. 
 
-One of the common techniques used in LHC analyses is the identification of central jets that have $b$-hadrons (hadrons containing bottom quark/s).  These jets are referred to as $b$-tagged and are identified using multivariate techniques based on machine learning instruments such as artificial neural networks and boosted decision trees \citep{Aad:2015ydr}. The efficiency of $b$-tagging has been significantly improved in run-II due to the addition of the Insertable B-Layer in the ID. $b$-tagging is an extremely useful technique because some important heavy particles such as top quark and the Higgs decay into bottom quarks. 
+One of the common techniques used in LHC analyses is the identification of central jets that have $b$-hadrons (hadrons containing bottom quark/s).  These jets are referred to as $b$-tagged and are identified using multivariate techniques based on machine learning instruments such as artificial neural networks and boosted decision trees \citep{Aad:2015ydr}. The efficiency of $b$-tagging has been significantly improved in run-II due to the addition of the Insertable B-Layer in the ID. $b$-tagging is an extremely useful technique because some important heavy particles such as top quark and the Higgs decay into bottom quarks.  
 
 \subsection{Event variables used in the analysis}
 \label{subsec:Variables}
@@ -112,7 +116,7 @@ where $\Delta\phi(E_{\text T}^{\text {miss}},\ell/j)$ is the azimuthal angle bet
 \item[]$\bm{m_{\ell \ell}}$ The invariant mass of the two leptons.
 \end{itemize}
 
-Another derived event variable is the so-called "stransverse mass"  $m_{\text {T2}}$ which was introduced as a way to infer information about undetected particles \citep{Lester:1999tx,Barr:2003rg}. Along with that, it is also proved useful in suppressing backgrounds. It is used to bound the masses of a pair of supersymmetric particles each of them decaying into one visible and one invisible particle. It is a function of the momenta of two visible particles and the missing transverse momentum of an event. Its abbreviated mathematical description is as follows
+Another derived event variable is the so-called ``stransverse mass"  $m_{\text {T2}}$ which was introduced as a way to infer information about undetected particles \citep{Lester:1999tx,Barr:2003rg}. Along with that, it is also proved useful in suppressing backgrounds. It is used to bound the masses of a pair of supersymmetric particles each of them decaying into one visible and one invisible particle. It is a function of the momenta of two visible particles and the missing transverse momentum of an event. Its abbreviated mathematical description is as follows
 \begin{equation}
 m_{\text{T2}} = \min_{\mathbf{q}_{\text T}}\Big [\max \Big ( m_{\text T} (\mathbf{p}_{\text T}^{\ell 1},\mathbf{q}_{\text T}),m_{\text T}(\mathbf{p}_{\text T}^{\ell 2},\mathbf{p}_{\text T}^{\text{miss}}-\mathbf{q}_{\text T}) \Big ) \Big ] ,
 \end{equation}
@@ -121,12 +125,13 @@ where $\mathbf{p}_{\text T}^{\ell 1}$ and $\mathbf{p}_{\text T}^{\ell 2}$ are th
 m_{\text T}(\mathbf{p}_{\text T},\mathbf{q}_{\text T}) = \sqrt{2(p_{\text T}q_{\text T} - \mathbf{p}_{\text T} \cdot \mathbf{q}_{\text T})}.
 \end{equation}
 
+The $m_{\text{T2}}$ has an upper end at the $W$ mass for SM $t\bar{t}$ and $WW$ events, where the missing momentum originates from neutrinos. In case with signal events, where the LSP contributes to $ \mathbf{p}_{\text T}^{\text{miss}}$, the $m_{\text{T2}}$ endpoint is correlated to the mass difference between the chargino and the lightest neutralino. $m_{\text{T2}}$ is more sensitive to large mass splittings as its distribution then extends significantly beyond the distributions of $t\bar{t}$ and $WW$ events. Its performance decreases for signals with small mass splittings.  
 
 \section{Cut-and-count approach and test statistics}
 \label{subsec:stat}
-As discussed previously, a good signal region retains as many signal events as possible while at the same time cutting off background events. The way to suppress the background is to use successive cuts. The cuts are based on determining physical quantities that are able to discriminate between signal and background. The choice for a single cut is motivated both by theoretical considerations and the shapes of the MC   signal and background distributions. 
+As discussed previously, a good signal region retains as many signal events as possible while at the same time cutting off background events. The way to suppress the background is to use successive cuts. The cuts are based on determining physical quantities that are able to discriminate between signal and background. The choice for a single cut is motivated both by theoretical considerations and the shapes of the MC signal and background distributions. 
 
-To optimize a cut or a set of cuts a metric that shows their discriminating power is needed. The numerical expression of how well a cut performs is given by a score function and its result will be referred to as "significance". The score function is constructed in the following way.
+To optimize a cut or a set of cuts a metric that shows their discriminating power is needed. The numerical expression of how well a cut performs is given by a score function and its result will be referred to as ``significance". The score function is constructed in the following way.
 The total number of events in a particular selection is $N$, and it is the sum of $S$ and $B$. The latter two refer to the number of signal and background events respectively. This gives the following expression
 \begin{equation}
 S = N -B
@@ -146,8 +151,9 @@ This determines the number of standard deviations away from the 0 of the signal.
 \frac{S}{\sigma(S)}\simeq \frac{S}{\sqrt{B}}.
 \end{equation} 
 
-The process of scientific discovery relies predominantly on using statistical methods to justify new discoveries and safeguard against false ones. It is especially important in HEP as it operates on quantum level where almost everything is described using probabilistic arguments (a particle's wave function being the most obvious example).  
-Any potential discovery in HEP must comply with stringent requirements posed by statistical inference. If some signal has a mean that is away from the mean of the background-only sample by three standard deviations (3$\sigma$), it is referred to as "evidence". If it is a 5$\sigma$ event then it is claimed as a discovery. To put this into perspective, the chance of a 5$\sigma$ event being just random fluctuation is around 1 in 3.5 million. 
+The process of scientific discovery relies predominantly on using statistical methods to justify new discoveries and safeguard against false ones. It is especially important in HEP as it operates on quantum level where almost everything is described using probabilistic arguments (a particle's wave function being the most obvious example).
+  
+Any potential discovery in HEP must comply with stringent requirements posed by statistical inference. If some signal has a mean that is away from the mean of the background-only sample by three standard deviations (3$\sigma$), it is referred to as ``evidence". If it is a 5$\sigma$ event then it is claimed as a discovery. To put this into perspective, the chance of a 5$\sigma$ event being just random fluctuation is around 1 in 3.5 million. 
 The expression $S/\sqrt{B}$ thus is a rough estimate of the number of standard deviations and can serve as a metric to assess the quality of candidate signal regions. 
 
 \section{Computational tools}

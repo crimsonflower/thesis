@@ -13,7 +13,8 @@
 \usepackage{rotating}
 \usepackage{color}
 \usepackage{epsfig}
-\usepackage{subfigure}   % To make subfigures. Read subfigure.pdf on ctan.tug.org
+\usepackage{subcaption}   % To make subfigures. Read subfigure.pdf on ctan.tug.org
+
 %\usepackage{subcaption}
 \usepackage{verbatim}
 \usepackage[hidelinks]{hyperref}
@@ -25,9 +26,17 @@
 \usepackage{bm}
 \usepackage{xfrac}
 \usepackage{enumitem}
+
+\captionsetup[figure]{textfont=small}
+\captionsetup[subfigure]{textfont=small,justification=justified,singlelinecheck=false}
+
 %\usepackage{geometry}
 \onehalfspacing         % \onehalfspacing for 1.5 spacing, \doublespacing for 2.0 spacing.
 \newcommand{\sun}{\ensuremath{\odot}} % sun symbol is \sun
+\newcommand{\metrel}{$E_{\text T}^{\text {miss,rel}}$}
+\newcommand{\dileptonmass}{$m_{\ell \ell}$}
+\newcommand{\mttwo}{$m_{\text{T2}}$}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Various theorem environments. All of the following have the same numbering
@@ -51,6 +60,8 @@
 
 \theoremstyle{remark}
 \newtheorem{remark}[theorem]{Remark}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \numberwithin{theorem}{chapter}     % Numbers theorems "x.y" where x
@@ -157,8 +168,16 @@
  \label{chap:searches}
 \input{Chap3/chap3}
 
+ \chapter{Determining signal regions}
+ \label{chap:results}
+ \input{Chap4/chap4}
 
-%\startappendices
+
+\startappendices
+\appendix{Trigger Efficiencies}
+\label{app:triggers}
+\input{Appendices/Triggers}
+
 %\appendix{Exclusion limits of ATLAS SUSY searches}
  %\label{app:SUSYlimit}
  %\input{Appendices/Appendix_SUSYlimits}
