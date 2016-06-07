@@ -9,7 +9,7 @@
 \hbox { }
 \contentsline {section}{\numberline {2.1}The Standard Model}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}The overview of the Standard Model}{3}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Limitations of the SM}{4}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Limitations of the Standard Model}{4}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Supersymmetry}{6}{section.2.2}
 \contentsline {section}{\numberline {2.3}The ATLAS detector}{7}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1} The ATLAS sub-detectors and trigger systems}{8}{subsection.2.3.1}
@@ -27,5 +27,7 @@
 \contentsline {chap}{\numberline {\hbox { }\hfill \bf IV.\hspace {5pt}}{\bf Determining signal regions}}{21}{chapter.4}
 \hbox { }
 \contentsline {section}{\numberline {4.1}First view}{21}{section.4.1}
-\contentsline {section}{\numberline {4.2}Cuts in the SF channel}{22}{section.4.2}
-\contentsline {chapter}{APPENDICES}{24}{table.caption.12}
+\contentsline {section}{\numberline {4.2}Applying cuts}{23}{section.4.2}
+\contentsline {subparagraph}{Veto on all jets.}{23}{section*.11}
+\contentsline {subparagraph}{Veto on $b$-tagged jets.}{24}{section*.14}
+\contentsline {chapter}{APPENDICES}{26}{table.caption.16}
