@@ -112,7 +112,6 @@ A set of discriminating variables associated with searches for evidence of SUSY 
   \end{cases}
 \]
 where $\Delta\phi(E_{\text T}^{\text {miss}},\ell/j)$ is the azimuthal angle between the direction of $E_{\text T}^{\text {miss,rel}}$ and that of the nearest electron, muon, or central jet. 
-\item[]$\bm{p_{T,\ell \ell}}$ The transverse momentum of the two-lepton system. 
 \item[]$\bm{m_{\ell \ell}}$ The invariant mass of the two leptons.
 \end{itemize}
 
@@ -155,6 +154,8 @@ The process of scientific discovery relies predominantly on using statistical me
   
 Any potential discovery in HEP must comply with stringent requirements posed by statistical inference. If some signal has a mean that is away from the mean of the background-only sample by three standard deviations (3$\sigma$), it is referred to as ``evidence". If it is a 5$\sigma$ event then it is claimed as a discovery. To put this into perspective, the chance of a 5$\sigma$ event being just random fluctuation is around 1 in 3.5 million. 
 The expression $S/\sqrt{B}$ thus is a rough estimate of the number of standard deviations and can serve as a metric to assess the quality of candidate signal regions. 
+
+A very important point about the $S/\sqrt{B}$ is that it grows with the increase in luminosity $\mathcal{L}$ at the rate of $\sqrt{\mathcal{L}}$. This can be used in extrapolating its values for higher projected luminosities that are going to be achieved in the 13 TeV run-II at the LHC.
 
 \section{Computational tools}
 Most of the HEP analyses are performed with ROOT framework which was developed at CERN specifically for this purpose \citep{root}. It is a multi-purpose package that provides tools for big data processing, statistical analysis, visualisation and storage. It is written in C++ programming language, but also provides integration with other languages such as Python, Ruby, R, etc.  ROOT is especially convenient because it provides constructors and methods created specifically for the LHC geometry and the type of analyses it entails. All the computational manipulations and visualisations were performed in ROOT using applications written in C++ and Python. 

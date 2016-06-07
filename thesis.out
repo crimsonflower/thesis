@@ -18,4 +18,7 @@
 \BOOKMARK [0][-]{chapter.4}{Determining signal regions}{}% 18
 \BOOKMARK [1][-]{section.4.1}{First view}{chapter.4}% 19
 \BOOKMARK [1][-]{section.4.2}{Applying cuts}{chapter.4}% 20
-\BOOKMARK [0][-]{table.caption.16}{APPENDICES}{}% 21
+\BOOKMARK [2][-]{subsection.4.2.1}{Veto on all jets.}{section.4.2}% 21
+\BOOKMARK [2][-]{subsection.4.2.2}{Veto on b-tagged jets.}{section.4.2}% 22
+\BOOKMARK [2][-]{subsection.4.2.3}{Cuts in the same-flavour channel}{section.4.2}% 23
+\BOOKMARK [0][-]{table.caption.16}{APPENDICES}{}% 24

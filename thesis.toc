@@ -28,6 +28,7 @@
 \hbox { }
 \contentsline {section}{\numberline {4.1}First view}{21}{section.4.1}
 \contentsline {section}{\numberline {4.2}Applying cuts}{23}{section.4.2}
-\contentsline {subparagraph}{Veto on all jets.}{23}{section*.11}
-\contentsline {subparagraph}{Veto on $b$-tagged jets.}{24}{section*.14}
-\contentsline {chapter}{APPENDICES}{26}{table.caption.16}
+\contentsline {subsection}{\numberline {4.2.1}Veto on all jets.}{23}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Veto on $b$-tagged jets.}{24}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Cuts in the same-flavour channel}{25}{subsection.4.2.3}
+\contentsline {chapter}{APPENDICES}{27}{table.caption.16}

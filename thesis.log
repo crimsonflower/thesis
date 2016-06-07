@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.22)  7 JUN 2016 18:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.22)  7 JUN 2016 20:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -669,27 +669,27 @@ LaTeX Warning: Label `sub@fig:SF_0jets_mz_mt2' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 104.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    ... okay on input line 104.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -724,7 +724,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring OFF on input line 102.
+Package hyperref Info: Link coloring OFF on input line 104.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -734,20 +734,20 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count159
 )
-LaTeX Info: Redefining \ref on input line 102.
-LaTeX Info: Redefining \pageref on input line 102.
-LaTeX Info: Redefining \nameref on input line 102.
+LaTeX Info: Redefining \ref on input line 104.
+LaTeX Info: Redefining \pageref on input line 104.
+LaTeX Info: Redefining \nameref on input line 104.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 109.
+LaTeX Font Info:    Try loading font information for U+msa on input line 111.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 109.
+LaTeX Font Info:    Try loading font information for U+msb on input line 111.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -758,7 +758,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = `thesis.toc'.
 
  [2] (./Abstract/Abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 148--2
+Underfull \hbox (badness 10000) in paragraph at lines 150--2
 
  []
 
@@ -806,7 +806,7 @@ erted-to.pdf Chap2/Unification.eps>
 (epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap2/Unification-eps-converted-to.pdf, id=169, 375.4025pt x 257.96375pt>
+<Chap2/Unification-eps-converted-to.pdf, id=184, 375.4025pt x 257.96375pt>
 File: Chap2/Unification-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chap2/Unification-eps-converted-to.pdf>
@@ -814,7 +814,7 @@ Package pdftex.def Info: Chap2/Unification-eps-converted-to.pdf used on input l
 ine 45.
 (pdftex.def)             Requested size: 300.3224pt x 206.37126pt.
  [5 <./Chap2/Unification-eps-converted-to.pdf>] [6]
-<Chap2/ATLAS_SE_WithDimensions_Corrected.png, id=189, 3312.375pt x 2107.875pt>
+<Chap2/ATLAS_SE_WithDimensions_Corrected.png, id=204, 3312.375pt x 2107.875pt>
 File: Chap2/ATLAS_SE_WithDimensions_Corrected.png Graphic file (type png)
 
 <use Chap2/ATLAS_SE_WithDimensions_Corrected.png>
@@ -822,7 +822,7 @@ Package pdftex.def Info: Chap2/ATLAS_SE_WithDimensions_Corrected.png used on in
 put line 100.
 (pdftex.def)             Requested size: 433.62pt x 275.93102pt.
 
-<Chap2/0803022_01.jpg, id=194, 903.375pt x 732.7375pt>
+<Chap2/0803022_01.jpg, id=209, 903.375pt x 732.7375pt>
 File: Chap2/0803022_01.jpg Graphic file (type jpg)
 
 <use Chap2/0803022_01.jpg>
@@ -840,7 +840,7 @@ his)
 >] [9 <./Chap2/0803022_01.jpg>]) [10]
 CHAPTER III.
 (./Chap3/chap3.tex
-<Chap3/ATLAS_SUSY_Summary.png, id=230, 2913.88625pt x 2165.08875pt>
+<Chap3/ATLAS_SUSY_Summary.png, id=245, 2913.88625pt x 2165.08875pt>
 File: Chap3/ATLAS_SUSY_Summary.png Graphic file (type png)
 
 <use Chap3/ATLAS_SUSY_Summary.png>
@@ -849,7 +849,7 @@ Package pdftex.def Info: Chap3/ATLAS_SUSY_Summary.png used on input line 8.
  [11
 
 ] [12 <./Chap3/ATLAS_SUSY_Summary.png>]
-<Chap3/fig_19b.png, id=248, 1976.38374pt x 1700.3525pt>
+<Chap3/fig_19b.png, id=263, 1976.38374pt x 1700.3525pt>
 File: Chap3/fig_19b.png Graphic file (type png)
 
 <use Chap3/fig_19b.png>
@@ -867,7 +867,7 @@ eps-converted-to.pdf Chap2/C1C1-llvvN1N1-slsnu.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf, id=254, 128.48pt x 110.4125pt>
+<Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf, id=269, 128.48pt x 110.4125pt>
 File: Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf Graphic file (type pdf)
 <use Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf>
 Package pdftex.def Info: Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf used on
@@ -876,14 +876,14 @@ Package pdftex.def Info: Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf used on
  [13
 
  <./Chap3/fig_19b.png> <./Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf>]
-<Chap3/c1c1_wino.pdf, id=270, 569.12625pt x 552.0625pt>
+<Chap3/c1c1_wino.pdf, id=285, 569.12625pt x 552.0625pt>
 File: Chap3/c1c1_wino.pdf Graphic file (type pdf)
 
 <use Chap3/c1c1_wino.pdf>
 Package pdftex.def Info: Chap3/c1c1_wino.pdf used on input line 41.
 (pdftex.def)             Requested size: 227.64647pt x 220.82108pt.
  [14 <./Chap3/c1c1_wino.pdf, page is rotated 90 degrees>] <Chap3/figaux_004a.pn
-g, id=328, 1138.2525pt x 817.0525pt>
+g, id=344, 1138.2525pt x 817.0525pt>
 File: Chap3/figaux_004a.png Graphic file (type png)
 
 <use Chap3/figaux_004a.png>
@@ -919,7 +919,7 @@ _total_signal-eps-converted-to.pdf Chap4/SF_DileptonMll_13TeV_total_signal.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap4/SF_DileptonMll_13TeV_total_signal-eps-converted-to.pdf, id=389, 569.1262
+<Chap4/SF_DileptonMll_13TeV_total_signal-eps-converted-to.pdf, id=404, 569.1262
 5pt x 491.8375pt>
 File: Chap4/SF_DileptonMll_13TeV_total_signal-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -942,7 +942,7 @@ s>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap4/Emu_DileptonMll_13TeV_total_signal-eps-converted-to.pdf, id=390, 569.126
+<Chap4/Emu_DileptonMll_13TeV_total_signal-eps-converted-to.pdf, id=405, 569.126
 25pt x 491.8375pt>
 File: Chap4/Emu_DileptonMll_13TeV_total_signal-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -965,7 +965,7 @@ _total_signal-eps-converted-to.pdf Chap4/SF_DileptonMt2_13TeV_total_signal.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap4/SF_DileptonMt2_13TeV_total_signal-eps-converted-to.pdf, id=391, 569.1262
+<Chap4/SF_DileptonMt2_13TeV_total_signal-eps-converted-to.pdf, id=406, 569.1262
 5pt x 491.8375pt>
 File: Chap4/SF_DileptonMt2_13TeV_total_signal-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -988,7 +988,7 @@ s>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap4/Emu_DileptonMt2_13TeV_total_signal-eps-converted-to.pdf, id=392, 569.126
+<Chap4/Emu_DileptonMt2_13TeV_total_signal-eps-converted-to.pdf, id=407, 569.126
 25pt x 491.8375pt>
 File: Chap4/Emu_DileptonMt2_13TeV_total_signal-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -998,12 +998,12 @@ Package pdftex.def Info: Chap4/Emu_DileptonMt2_13TeV_total_signal-eps-converted
 -to.pdf used on input line 32.
 (pdftex.def)             Requested size: 216.27022pt x 186.90018pt.
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 14--34
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 14--35
 [][] []
  []
 
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 14--34
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 14--35
 [] [] 
  []
 
@@ -1024,18 +1024,23 @@ nal-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Nojetsmz/SF_DileptonMt2_13
 TeV_0jets_mz_signal-eps-converted-to.pdf Nojetsmz/SF_DileptonMt2_13TeV_0jets_mz
 _signal.eps>
-(epstopdf)             \includegraphics on input line 56.
+(epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
-<Nojetsmz/SF_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf, id=465, 56
+<Nojetsmz/SF_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf, id=480, 56
 9.12625pt x 491.8375pt>
 File: Nojetsmz/SF_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf Graphi
 c file (type pdf)
 
 <use Nojetsmz/SF_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf>
 Package pdftex.def Info: Nojetsmz/SF_DileptonMt2_13TeV_0jets_mz_signal-eps-conv
-erted-to.pdf used on input line 56.
-(pdftex.def)             Requested size: 216.27022pt x 186.90018pt.
+erted-to.pdf used on input line 57.
+(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
+
+Overfull \hbox (10.83647pt too wide) in paragraph at lines 57--58
+[][] 
+ []
+
 Package epstopdf Info: Source file: <Nojetsmz/Emu_DileptonMt2_13TeV_0jets_mz_si
 gnal.eps>
 (epstopdf)                    date: 2016-06-06 20:28:45
@@ -1047,25 +1052,38 @@ gnal-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Nojetsmz/Emu_DileptonMt2_1
 3TeV_0jets_mz_signal-eps-converted-to.pdf Nojetsmz/Emu_DileptonMt2_13TeV_0jets_
 mz_signal.eps>
-(epstopdf)             \includegraphics on input line 61.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 
-<Nojetsmz/Emu_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf, id=466, 5
+<Nojetsmz/Emu_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf, id=481, 5
 69.12625pt x 491.8375pt>
 File: Nojetsmz/Emu_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use Nojetsmz/Emu_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf>
 Package pdftex.def Info: Nojetsmz/Emu_DileptonMt2_13TeV_0jets_mz_signal-eps-con
-verted-to.pdf used on input line 61.
-(pdftex.def)             Requested size: 216.27022pt x 186.90018pt.
+verted-to.pdf used on input line 62.
+(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 53--63
+Overfull \hbox (10.83647pt too wide) in paragraph at lines 62--63
+[][] 
+ []
+
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 54--64
 [][] [] 
  []
 
 [23 <./Nojetsmz/SF_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf> <./N
 ojetsmz/Emu_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 91.
+
 Package epstopdf Info: Source file: <Chap4/SF_DileptonMt2_13TeV_0bjets_mz_signa
 l.eps>
 (epstopdf)                    date: 2016-05-25 23:32:43
@@ -1077,18 +1095,23 @@ l-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Chap4/SF_DileptonMt2_13TeV
 _0bjets_mz_signal-eps-converted-to.pdf Chap4/SF_DileptonMt2_13TeV_0bjets_mz_sig
 nal.eps>
-(epstopdf)             \includegraphics on input line 100.
+(epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap4/SF_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf, id=506, 569.
+<Chap4/SF_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf, id=519, 569.
 12625pt x 491.8375pt>
 File: Chap4/SF_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use Chap4/SF_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf>
 Package pdftex.def Info: Chap4/SF_DileptonMt2_13TeV_0bjets_mz_signal-eps-conver
-ted-to.pdf used on input line 100.
-(pdftex.def)             Requested size: 216.27022pt x 186.90018pt.
+ted-to.pdf used on input line 103.
+(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
+
+Overfull \hbox (10.83647pt too wide) in paragraph at lines 103--104
+[][] 
+ []
+
 Package epstopdf Info: Source file: <Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_sign
 al.eps>
 (epstopdf)                    date: 2016-05-25 23:32:41
@@ -1100,32 +1123,62 @@ al-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Chap4/Emu_DileptonMt2_13Te
 V_0bjets_mz_signal-eps-converted-to.pdf Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_s
 ignal.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf, id=507, 569
+<Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf, id=520, 569
 .12625pt x 491.8375pt>
 File: Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf>
 Package pdftex.def Info: Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_signal-eps-conve
-rted-to.pdf used on input line 105.
-(pdftex.def)             Requested size: 216.27022pt x 186.90018pt.
+rted-to.pdf used on input line 108.
+(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 97--108
+Overfull \hbox (10.83647pt too wide) in paragraph at lines 108--109
+[][] 
+ []
+
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 100--111
 [][] [] 
  []
 
-[24]) [25 <./Chap4/SF_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf> 
-<./Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf>] [26
+[24] [25 <./Chap4/SF_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf> <
+./Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Chap4/SF_DileptonMt2_13TeV_0jets_mz_MetRel
+>80_signal.eps>
+(epstopdf)                    date: 2016-05-25 22:40:33
+(epstopdf)                    size: 33733 bytes
+(epstopdf)             Output file: <Chap4/SF_DileptonMt2_13TeV_0jets_mz_MetRel
+>80_signal-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-07 19:31:03
+(epstopdf)                    size: 16365 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chap4/SF_DileptonMt2_13TeV
+_0jets_mz_MetRel>80_signal-eps-converted-to.pdf Chap4/SF_DileptonMt2_13TeV_0jet
+s_mz_MetRel>80_signal.eps>
+(epstopdf)             \includegraphics on input line 140.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chap4/SF_DileptonMt2_13TeV_0jets_mz_MetRel>80_signal-eps-converted-to.pdf, id=
+562, 569.12625pt x 491.8375pt>
+File: Chap4/SF_DileptonMt2_13TeV_0jets_mz_MetRel>80_signal-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use Chap4/SF_DileptonMt2_13TeV_0jets_mz_MetRel>80_signal-eps-converted-to.pdf>
+Package pdftex.def Info: Chap4/SF_DileptonMt2_13TeV_0jets_mz_MetRel>80_signal-e
+ps-converted-to.pdf used on input line 140.
+(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
+) [26 <./Chap4/SF_DileptonMt2_13TeV_0jets_mz_MetRel>80_signal-eps-converted-to.
+pdf>] [27
 
 ]
 APPENDIX A.
 Package hyperref Info: bookmark level for unknown appendix defaults to 0 on inp
-ut line 177.
+ut line 179.
 (./Appendices/Triggers.tex
-<Appendices/Et_e12_lhloose_L1EM10VH.png, id=550, 798.985pt x 574.145pt>
+<Appendices/Et_e12_lhloose_L1EM10VH.png, id=586, 798.985pt x 574.145pt>
 File: Appendices/Et_e12_lhloose_L1EM10VH.png Graphic file (type png)
 
 <use Appendices/Et_e12_lhloose_L1EM10VH.png>
@@ -1140,7 +1193,7 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
 <Appendices/LHCC_HLT_mu20_iloose_L1MU15_OR_HLT_mu50_barrel_probe_pt_eff.png, id
-=553, 1580.90625pt x 1067.99pt>
+=589, 1580.90625pt x 1067.99pt>
 File: Appendices/LHCC_HLT_mu20_iloose_L1MU15_OR_HLT_mu50_barrel_probe_pt_eff.pn
 g Graphic file (type png)
 
@@ -1149,12 +1202,12 @@ g Graphic file (type png)
 Package pdftex.def Info: Appendices/LHCC_HLT_mu20_iloose_L1MU15_OR_HLT_mu50_bar
 rel_probe_pt_eff.png used on input line 11.
 (pdftex.def)             Requested size: 227.62204pt x 153.77089pt.
-) (./thesis.bbl [27
+) (./thesis.bbl [28
 
  <./Appendices/Et_e12_lhloose_L1EM10VH.png> <./Appendices/LHCC_HLT_mu20_iloose_
-L1MU15_OR_HLT_mu50_barrel_probe_pt_eff.png>] [28
+L1MU15_OR_HLT_mu50_barrel_probe_pt_eff.png>] [29
 
-] [29]
+] [30]
 Underfull \hbox (badness 10000) in paragraph at lines 126--130
 []\OT1/cmr/m/n/12 ATLAS Col-lab-o-ra-tion, ``Nlo-nll wino-like chargino-chargin
 o (c1c1)
@@ -1179,25 +1232,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--169
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
- [30]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
+ [31]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F1457C0FA5B5E7DB6DC78F1A2CEF30DF;1435.
+(rerunfilecheck)             Checksum: 0AFDD280C80CC09EBC9C9902AEFB8118;1668.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 199.
  ) 
 Here is how much of TeX's memory you used:
- 15337 strings out of 494985
- 268726 string characters out of 6180356
- 345225 words of memory out of 5000000
- 18136 multiletter control sequences out of 15000+600000
+ 15354 strings out of 494985
+ 269263 string characters out of 6180356
+ 346502 words of memory out of 5000000
+ 18148 multiletter control sequences out of 15000+600000
  22473 words of font info for 83 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  45i,13n,44p,10463b,589s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1208,22 +1261,21 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (33 pages, 8922170 bytes).
+e1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (34 pages, 8931430 bytes).
 PDF statistics:
- 679 PDF objects out of 1000 (max. 8388607)
- 529 compressed objects within 6 object streams
- 115 named destinations out of 1000 (max. 500000)
- 259 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 712 PDF objects out of 1000 (max. 8388607)
+ 557 compressed objects within 6 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
