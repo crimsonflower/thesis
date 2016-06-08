@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.22)  8 JUN 2016 16:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.22)  8 JUN 2016 17:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -806,7 +806,7 @@ erted-to.pdf Chap2/Unification.eps>
 (epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap2/Unification-eps-converted-to.pdf, id=198, 375.4025pt x 257.96375pt>
+<Chap2/Unification-eps-converted-to.pdf, id=204, 375.4025pt x 257.96375pt>
 File: Chap2/Unification-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chap2/Unification-eps-converted-to.pdf>
@@ -814,7 +814,7 @@ Package pdftex.def Info: Chap2/Unification-eps-converted-to.pdf used on input l
 ine 45.
 (pdftex.def)             Requested size: 300.3224pt x 206.37126pt.
  [5 <./Chap2/Unification-eps-converted-to.pdf>] [6]
-<Chap2/ATLAS_SE_WithDimensions_Corrected.png, id=218, 3312.375pt x 2107.875pt>
+<Chap2/ATLAS_SE_WithDimensions_Corrected.png, id=224, 3312.375pt x 2107.875pt>
 File: Chap2/ATLAS_SE_WithDimensions_Corrected.png Graphic file (type png)
 
 <use Chap2/ATLAS_SE_WithDimensions_Corrected.png>
@@ -822,7 +822,7 @@ Package pdftex.def Info: Chap2/ATLAS_SE_WithDimensions_Corrected.png used on in
 put line 100.
 (pdftex.def)             Requested size: 433.62pt x 275.93102pt.
 
-<Chap2/0803022_01.jpg, id=223, 903.375pt x 732.7375pt>
+<Chap2/0803022_01.jpg, id=229, 903.375pt x 732.7375pt>
 File: Chap2/0803022_01.jpg Graphic file (type jpg)
 
 <use Chap2/0803022_01.jpg>
@@ -840,7 +840,7 @@ his)
 >] [9 <./Chap2/0803022_01.jpg>]) [10]
 CHAPTER III.
 (./Chap3/chap3.tex
-<Chap3/ATLAS_SUSY_Summary.png, id=259, 2913.88625pt x 2165.08875pt>
+<Chap3/ATLAS_SUSY_Summary.png, id=265, 2913.88625pt x 2165.08875pt>
 File: Chap3/ATLAS_SUSY_Summary.png Graphic file (type png)
 
 <use Chap3/ATLAS_SUSY_Summary.png>
@@ -849,7 +849,7 @@ Package pdftex.def Info: Chap3/ATLAS_SUSY_Summary.png used on input line 8.
  [11
 
 ] [12 <./Chap3/ATLAS_SUSY_Summary.png>]
-<Chap3/fig_19b.png, id=277, 1976.38374pt x 1700.3525pt>
+<Chap3/fig_19b.png, id=283, 1976.38374pt x 1700.3525pt>
 File: Chap3/fig_19b.png Graphic file (type png)
 
 <use Chap3/fig_19b.png>
@@ -867,7 +867,7 @@ eps-converted-to.pdf Chap2/C1C1-llvvN1N1-slsnu.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf, id=283, 128.48pt x 110.4125pt>
+<Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf, id=289, 128.48pt x 110.4125pt>
 File: Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf Graphic file (type pdf)
 <use Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf>
 Package pdftex.def Info: Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf used on
@@ -876,14 +876,14 @@ Package pdftex.def Info: Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf used on
  [13
 
  <./Chap3/fig_19b.png> <./Chap2/C1C1-llvvN1N1-slsnu-eps-converted-to.pdf>]
-<Chap3/c1c1_wino.pdf, id=299, 569.12625pt x 552.0625pt>
+<Chap3/c1c1_wino.pdf, id=305, 569.12625pt x 552.0625pt>
 File: Chap3/c1c1_wino.pdf Graphic file (type pdf)
 
 <use Chap3/c1c1_wino.pdf>
 Package pdftex.def Info: Chap3/c1c1_wino.pdf used on input line 41.
 (pdftex.def)             Requested size: 227.64647pt x 220.82108pt.
  [14 <./Chap3/c1c1_wino.pdf, page is rotated 90 degrees>] <Chap3/figaux_004a.pn
-g, id=358, 1138.2525pt x 817.0525pt>
+g, id=364, 1138.2525pt x 817.0525pt>
 File: Chap3/figaux_004a.png Graphic file (type png)
 
 <use Chap3/figaux_004a.png>
@@ -919,7 +919,7 @@ _total_signal-eps-converted-to.pdf Chap4/SF_DileptonMll_13TeV_total_signal.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap4/SF_DileptonMll_13TeV_total_signal-eps-converted-to.pdf, id=418, 569.1262
+<Chap4/SF_DileptonMll_13TeV_total_signal-eps-converted-to.pdf, id=424, 569.1262
 5pt x 491.8375pt>
 File: Chap4/SF_DileptonMll_13TeV_total_signal-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -927,7 +927,12 @@ File: Chap4/SF_DileptonMll_13TeV_total_signal-eps-converted-to.pdf Graphic file
 <use Chap4/SF_DileptonMll_13TeV_total_signal-eps-converted-to.pdf>
 Package pdftex.def Info: Chap4/SF_DileptonMll_13TeV_total_signal-eps-converted-
 to.pdf used on input line 17.
-(pdftex.def)             Requested size: 216.27022pt x 186.90018pt.
+(pdftex.def)             Requested size: 239.03139pt x 206.57033pt.
+
+Overfull \hbox (22.22139pt too wide) in paragraph at lines 17--18
+[][] 
+ []
+
 Package epstopdf Info: Source file: <Chap4/Emu_DileptonMll_13TeV_total_signal.e
 ps>
 (epstopdf)                    date: 2016-06-06 19:30:17
@@ -942,7 +947,7 @@ s>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap4/Emu_DileptonMll_13TeV_total_signal-eps-converted-to.pdf, id=419, 569.126
+<Chap4/Emu_DileptonMll_13TeV_total_signal-eps-converted-to.pdf, id=425, 569.126
 25pt x 491.8375pt>
 File: Chap4/Emu_DileptonMll_13TeV_total_signal-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -950,7 +955,12 @@ e (type pdf)
 <use Chap4/Emu_DileptonMll_13TeV_total_signal-eps-converted-to.pdf>
 Package pdftex.def Info: Chap4/Emu_DileptonMll_13TeV_total_signal-eps-converted
 -to.pdf used on input line 22.
-(pdftex.def)             Requested size: 216.27022pt x 186.90018pt.
+(pdftex.def)             Requested size: 239.03139pt x 206.57033pt.
+
+Overfull \hbox (22.22139pt too wide) in paragraph at lines 22--23
+[][] 
+ []
+
 Package epstopdf Info: Source file: <Chap4/SF_DileptonMt2_13TeV_total_signal.ep
 s>
 (epstopdf)                    date: 2016-06-06 19:30:20
@@ -965,7 +975,7 @@ _total_signal-eps-converted-to.pdf Chap4/SF_DileptonMt2_13TeV_total_signal.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap4/SF_DileptonMt2_13TeV_total_signal-eps-converted-to.pdf, id=420, 569.1262
+<Chap4/SF_DileptonMt2_13TeV_total_signal-eps-converted-to.pdf, id=426, 569.1262
 5pt x 491.8375pt>
 File: Chap4/SF_DileptonMt2_13TeV_total_signal-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -973,7 +983,12 @@ File: Chap4/SF_DileptonMt2_13TeV_total_signal-eps-converted-to.pdf Graphic file
 <use Chap4/SF_DileptonMt2_13TeV_total_signal-eps-converted-to.pdf>
 Package pdftex.def Info: Chap4/SF_DileptonMt2_13TeV_total_signal-eps-converted-
 to.pdf used on input line 27.
-(pdftex.def)             Requested size: 216.27022pt x 186.90018pt.
+(pdftex.def)             Requested size: 239.03139pt x 206.57033pt.
+
+Overfull \hbox (22.22139pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
 Package epstopdf Info: Source file: <Chap4/Emu_DileptonMt2_13TeV_total_signal.e
 ps>
 (epstopdf)                    date: 2016-06-07 17:58:58
@@ -988,7 +1003,7 @@ s>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap4/Emu_DileptonMt2_13TeV_total_signal-eps-converted-to.pdf, id=421, 569.126
+<Chap4/Emu_DileptonMt2_13TeV_total_signal-eps-converted-to.pdf, id=427, 569.126
 25pt x 491.8375pt>
 File: Chap4/Emu_DileptonMt2_13TeV_total_signal-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -996,7 +1011,12 @@ e (type pdf)
 <use Chap4/Emu_DileptonMt2_13TeV_total_signal-eps-converted-to.pdf>
 Package pdftex.def Info: Chap4/Emu_DileptonMt2_13TeV_total_signal-eps-converted
 -to.pdf used on input line 32.
-(pdftex.def)             Requested size: 216.27022pt x 186.90018pt.
+(pdftex.def)             Requested size: 239.03139pt x 206.57033pt.
+
+Overfull \hbox (22.22139pt too wide) in paragraph at lines 32--33
+[][] 
+ []
+
 
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 14--35
 [][] []
@@ -1027,7 +1047,7 @@ _signal.eps>
 (epstopdf)             \includegraphics on input line 59.
 Package epstopdf Info: Output file is already uptodate.
 
-<Nojetsmz/SF_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf, id=495, 56
+<Nojetsmz/SF_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf, id=501, 56
 9.12625pt x 491.8375pt>
 File: Nojetsmz/SF_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -1035,9 +1055,9 @@ c file (type pdf)
 <use Nojetsmz/SF_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf>
 Package pdftex.def Info: Nojetsmz/SF_DileptonMt2_13TeV_0jets_mz_signal-eps-conv
 erted-to.pdf used on input line 59.
-(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
+(pdftex.def)             Requested size: 239.03139pt x 206.57033pt.
 
-Overfull \hbox (10.83647pt too wide) in paragraph at lines 59--60
+Overfull \hbox (22.22139pt too wide) in paragraph at lines 59--60
 [][] 
  []
 
@@ -1055,7 +1075,7 @@ mz_signal.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 
-<Nojetsmz/Emu_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf, id=496, 5
+<Nojetsmz/Emu_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf, id=502, 5
 69.12625pt x 491.8375pt>
 File: Nojetsmz/Emu_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1063,9 +1083,9 @@ ic file (type pdf)
 <use Nojetsmz/Emu_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf>
 Package pdftex.def Info: Nojetsmz/Emu_DileptonMt2_13TeV_0jets_mz_signal-eps-con
 verted-to.pdf used on input line 64.
-(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
+(pdftex.def)             Requested size: 239.03139pt x 206.57033pt.
 
-Overfull \hbox (10.83647pt too wide) in paragraph at lines 64--65
+Overfull \hbox (22.22139pt too wide) in paragraph at lines 64--65
 [][] 
  []
 
@@ -1078,11 +1098,11 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 56--66
 ojetsmz/Emu_DileptonMt2_13TeV_0jets_mz_signal-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 93.
+(hyperref)                removing `math shift' on input line 90.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 93.
+(hyperref)                removing `math shift' on input line 90.
 
 Package epstopdf Info: Source file: <Chap4/SF_DileptonMt2_13TeV_0bjets_mz_signa
 l.eps>
@@ -1095,20 +1115,20 @@ l-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Chap4/SF_DileptonMt2_13TeV
 _0bjets_mz_signal-eps-converted-to.pdf Chap4/SF_DileptonMt2_13TeV_0bjets_mz_sig
 nal.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap4/SF_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf, id=533, 569.
+<Chap4/SF_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf, id=539, 569.
 12625pt x 491.8375pt>
 File: Chap4/SF_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use Chap4/SF_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf>
 Package pdftex.def Info: Chap4/SF_DileptonMt2_13TeV_0bjets_mz_signal-eps-conver
-ted-to.pdf used on input line 105.
-(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
+ted-to.pdf used on input line 102.
+(pdftex.def)             Requested size: 239.03139pt x 206.57033pt.
 
-Overfull \hbox (10.83647pt too wide) in paragraph at lines 105--106
+Overfull \hbox (22.22139pt too wide) in paragraph at lines 102--103
 [][] 
  []
 
@@ -1123,25 +1143,25 @@ al-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Chap4/Emu_DileptonMt2_13Te
 V_0bjets_mz_signal-eps-converted-to.pdf Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_s
 ignal.eps>
-(epstopdf)             \includegraphics on input line 110.
+(epstopdf)             \includegraphics on input line 107.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf, id=534, 569
+<Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf, id=540, 569
 .12625pt x 491.8375pt>
 File: Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_signal-eps-converted-to.pdf>
 Package pdftex.def Info: Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_signal-eps-conve
-rted-to.pdf used on input line 110.
-(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
+rted-to.pdf used on input line 107.
+(pdftex.def)             Requested size: 239.03139pt x 206.57033pt.
 
-Overfull \hbox (10.83647pt too wide) in paragraph at lines 110--111
+Overfull \hbox (22.22139pt too wide) in paragraph at lines 107--108
 [][] 
  []
 
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 102--113
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 99--110
 [][] [] 
  []
 
@@ -1158,18 +1178,18 @@ Package epstopdf Info: Source file: <Chap4/SF_DileptonMt2_13TeV_0jets_mz_MetRel
 (epstopdf)             Command: <repstopdf --outfile=Chap4/SF_DileptonMt2_13TeV
 _0jets_mz_MetRel>80_signal-eps-converted-to.pdf Chap4/SF_DileptonMt2_13TeV_0jet
 s_mz_MetRel>80_signal.eps>
-(epstopdf)             \includegraphics on input line 143.
+(epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
 
 <Chap4/SF_DileptonMt2_13TeV_0jets_mz_MetRel>80_signal-eps-converted-to.pdf, id=
-576, 569.12625pt x 491.8375pt>
+582, 569.12625pt x 491.8375pt>
 File: Chap4/SF_DileptonMt2_13TeV_0jets_mz_MetRel>80_signal-eps-converted-to.pdf
  Graphic file (type pdf)
 
 <use Chap4/SF_DileptonMt2_13TeV_0jets_mz_MetRel>80_signal-eps-converted-to.pdf>
 Package pdftex.def Info: Chap4/SF_DileptonMt2_13TeV_0jets_mz_MetRel>80_signal-e
-ps-converted-to.pdf used on input line 143.
-(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
+ps-converted-to.pdf used on input line 140.
+(pdftex.def)             Requested size: 284.56242pt x 245.91814pt.
 [26 <./Chap4/SF_DileptonMt2_13TeV_0jets_mz_MetRel>80_signal-eps-converted-to.pd
 f>]
 Package epstopdf Info: Source file: <Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_MetR
@@ -1183,21 +1203,21 @@ el>40_signal-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Chap4/Emu_DileptonMt2_13Te
 V_0bjets_mz_MetRel>40_signal-eps-converted-to.pdf Chap4/Emu_DileptonMt2_13TeV_0
 bjets_mz_MetRel>40_signal.eps>
-(epstopdf)             \includegraphics on input line 178.
+(epstopdf)             \includegraphics on input line 174.
 Package epstopdf Info: Output file is already uptodate.
 
 <Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_MetRel>40_signal-eps-converted-to.pdf, i
-d=601, 569.12625pt x 491.8375pt>
+d=607, 569.12625pt x 491.8375pt>
 File: Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_MetRel>40_signal-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_MetRel>40_signal-eps-converted-to.pd
 f>
 Package pdftex.def Info: Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_MetRel>40_signal
--eps-converted-to.pdf used on input line 178.
-(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
+-eps-converted-to.pdf used on input line 174.
+(pdftex.def)             Requested size: 239.03139pt x 206.57033pt.
 
-Overfull \hbox (10.83647pt too wide) in paragraph at lines 178--179
+Overfull \hbox (22.22139pt too wide) in paragraph at lines 174--175
 [][] 
  []
 
@@ -1212,31 +1232,31 @@ el>80_signal-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Chap4/Emu_DileptonMt2_13Te
 V_0bjets_mz_MetRel>80_signal-eps-converted-to.pdf Chap4/Emu_DileptonMt2_13TeV_0
 bjets_mz_MetRel>80_signal.eps>
-(epstopdf)             \includegraphics on input line 183.
+(epstopdf)             \includegraphics on input line 179.
 Package epstopdf Info: Output file is already uptodate.
 
 <Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_MetRel>80_signal-eps-converted-to.pdf, i
-d=602, 569.12625pt x 491.8375pt>
+d=608, 569.12625pt x 491.8375pt>
 File: Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_MetRel>80_signal-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_MetRel>80_signal-eps-converted-to.pd
 f>
 Package pdftex.def Info: Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_MetRel>80_signal
--eps-converted-to.pdf used on input line 183.
-(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
+-eps-converted-to.pdf used on input line 179.
+(pdftex.def)             Requested size: 239.03139pt x 206.57033pt.
 
-Overfull \hbox (10.83647pt too wide) in paragraph at lines 183--184
+Overfull \hbox (22.22139pt too wide) in paragraph at lines 179--180
 [][] 
  []
 
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 175--185
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 171--181
 [][] [] 
  []
 
 
-Overfull \hbox (32.10535pt too wide) in paragraph at lines 191--199
+Overfull \hbox (32.10535pt too wide) in paragraph at lines 187--195
  [][] 
  []
 
@@ -1254,20 +1274,20 @@ signal_80-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Chap4/Emu_OneCentralJet_dP
 hiMetJet_13_TeV_signal_80-eps-converted-to.pdf Chap4/Emu_OneCentralJet_dPhiMetJ
 et_13_TeV_signal_80.eps>
-(epstopdf)             \includegraphics on input line 215.
+(epstopdf)             \includegraphics on input line 211.
 Package epstopdf Info: Output file is already uptodate.
 
 <Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_80-eps-converted-to.pdf, id=6
-41, 569.12625pt x 491.8375pt>
+46, 569.12625pt x 491.8375pt>
 File: Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_80-eps-converted-to.pdf 
 Graphic file (type pdf)
 
 <use Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_80-eps-converted-to.pdf>
 Package pdftex.def Info: Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_80-ep
-s-converted-to.pdf used on input line 215.
-(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
+s-converted-to.pdf used on input line 211.
+(pdftex.def)             Requested size: 239.03139pt x 206.57033pt.
 
-Overfull \hbox (10.83647pt too wide) in paragraph at lines 215--216
+Overfull \hbox (22.22139pt too wide) in paragraph at lines 211--212
 [][] 
  []
 
@@ -1282,42 +1302,46 @@ signal_100-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Chap4/Emu_OneCentralJet_dP
 hiMetJet_13_TeV_signal_100-eps-converted-to.pdf Chap4/Emu_OneCentralJet_dPhiMet
 Jet_13_TeV_signal_100.eps>
-(epstopdf)             \includegraphics on input line 220.
+(epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
 
 <Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_100-eps-converted-to.pdf, id=
-642, 569.12625pt x 491.8375pt>
+647, 569.12625pt x 491.8375pt>
 File: Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_100-eps-converted-to.pdf
  Graphic file (type pdf)
 
 <use Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_100-eps-converted-to.pdf>
 Package pdftex.def Info: Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_100-e
-ps-converted-to.pdf used on input line 220.
-(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
+ps-converted-to.pdf used on input line 216.
+(pdftex.def)             Requested size: 239.03139pt x 206.57033pt.
 
-Overfull \hbox (10.83647pt too wide) in paragraph at lines 220--221
+Overfull \hbox (22.22139pt too wide) in paragraph at lines 216--217
 [][] 
  []
 
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 212--222
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 208--218
 [][] [] 
  []
 
-[28 <./Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_80-eps-converted-to.pdf
-> <./Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_100-eps-converted-to.pdf>
-]) [29]
+) [28] [29 <./Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_80-eps-converted
+-to.pdf> <./Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_100-eps-converted-
+to.pdf>]
 CHAPTER V.
 (./Chap5/chap5.tex [30
 
-]) [31] [32
+]) [31]
+CHAPTER VI.
+(./Chap6/chap6.tex) [32
+
+] [33
 
 ]
 APPENDIX A.
 Package hyperref Info: bookmark level for unknown appendix defaults to 0 on inp
-ut line 184.
+ut line 188.
 (./Appendices/Triggers.tex
-<Appendices/Et_e12_lhloose_L1EM10VH.png, id=695, 798.985pt x 574.145pt>
+<Appendices/Et_e12_lhloose_L1EM10VH.png, id=708, 798.985pt x 574.145pt>
 File: Appendices/Et_e12_lhloose_L1EM10VH.png Graphic file (type png)
 
 <use Appendices/Et_e12_lhloose_L1EM10VH.png>
@@ -1332,7 +1356,7 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
 <Appendices/LHCC_HLT_mu20_iloose_L1MU15_OR_HLT_mu50_barrel_probe_pt_eff.png, id
-=698, 1580.90625pt x 1067.99pt>
+=711, 1580.90625pt x 1067.99pt>
 File: Appendices/LHCC_HLT_mu20_iloose_L1MU15_OR_HLT_mu50_barrel_probe_pt_eff.pn
 g Graphic file (type png)
 
@@ -1341,12 +1365,12 @@ g Graphic file (type png)
 Package pdftex.def Info: Appendices/LHCC_HLT_mu20_iloose_L1MU15_OR_HLT_mu50_bar
 rel_probe_pt_eff.png used on input line 11.
 (pdftex.def)             Requested size: 227.62204pt x 153.77089pt.
-) (./thesis.bbl [33
+) (./thesis.bbl [34
 
  <./Appendices/Et_e12_lhloose_L1EM10VH.png> <./Appendices/LHCC_HLT_mu20_iloose_
-L1MU15_OR_HLT_mu50_barrel_probe_pt_eff.png>] [34
+L1MU15_OR_HLT_mu50_barrel_probe_pt_eff.png>] [35
 
-] [35]
+] [36]
 Underfull \hbox (badness 10000) in paragraph at lines 126--130
 []\OT1/cmr/m/n/12 ATLAS Col-lab-o-ra-tion, ``Nlo-nll wino-like chargino-chargin
 o (c1c1)
@@ -1371,28 +1395,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--169
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
- [36]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
+ [37]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: AD1A050D5E1A9265EFDEA17FCC8E5A9D;1910.
+(rerunfilecheck)             Checksum: E58B31C690AECDC09DA1128C7781444B;1947.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
  ) 
 Here is how much of TeX's memory you used:
- 15421 strings out of 494985
- 271447 string characters out of 6180356
- 347639 words of memory out of 5000000
- 18195 multiletter control sequences out of 15000+600000
+ 15438 strings out of 494985
+ 271644 string characters out of 6180356
+ 347662 words of memory out of 5000000
+ 18203 multiletter control sequences out of 15000+600000
  22473 words of font info for 83 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 45i,14n,44p,10463b,589s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,13n,44p,10463b,589s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -1412,10 +1436,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (39 pages, 8998730 bytes).
+Output written on thesis.pdf (40 pages, 9000353 bytes).
 PDF statistics:
- 828 PDF objects out of 1000 (max. 8388607)
- 646 compressed objects within 7 object streams
- 131 named destinations out of 1000 (max. 500000)
- 332 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 841 PDF objects out of 1000 (max. 8388607)
+ 658 compressed objects within 7 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 340 words of extra memory for PDF output out of 10000 (max. 10000000)
 

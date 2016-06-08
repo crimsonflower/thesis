@@ -2,7 +2,7 @@
 
 Searches for various BSM theories including SUSY have been performed at the LHC  alongside searching for the Higgs and performing different SM analyses. Many SUSY searches were conducted targeting the production of squarks and gluinos. This was motivated by a larger theoretical cross-section and therefore higher probability of producing coloured superpartners \cite{borschensky2014squark}. Up to this moment no statistically significant excess over the SM has been detected and exclusion limits were placed on masses of SUSY particles. Figure~\ref{fig:SUSYlimit} shows the latest data on the masses that have been excluded for supersymmetric particles in various production scenarios. The lower limits on the masses of most squarks and gluinos in different searches significantly exceed 1 TeV \citep{aad2015summary}. As a consequence, if their production occurs, it is either extremely rare at present energies or requires higher energy of collision to leave an identifiable signature. 
 
-This thesis's research will focus on the electroweak production as one of the possible SUSY particle production scenarios. Sleptons and gauginos are produced in electroweak production processes and are not affected by the strong force. They have smaller cross-sections compared to squarks and gluinos, so their theoretical production rate is smaller. However, if their masses are small compared to the strongly interacting sparticles, SUSY production will likely be dominated by electroweak production where sparticles have smaller mass and current energy might be enough to produce them in quantities that would allow their detection \citep{atlas2015search}. 
+This thesis's research will focus on the electroweak production as one of the possible SUSY particle production scenarios. Sleptons and gauginos are produced in electroweak production processes and are not affected by the strong force. They have smaller cross-sections compared to squarks and gluinos, so their theoretical production rate is smaller. However, if their masses are small compared to the strongly interacting sparticles, SUSY production will likely be dominated by electroweak production where sparticles have smaller mass. Current centre-of-mass energy might be enough to produce them in quantities that would allow their detection \citep{atlas2015search}. 
 %\newgeometry{left=1cm,right=1cm}
 \begin{sidewaysfigure}[!ht]
 \includegraphics[width=\textwidth]{Chap3/ATLAS_SUSY_Summary.png}
@@ -28,8 +28,8 @@ In particular, the production of a  $\tilde{\chi}^{+}_{1}\tilde{\chi}^{-}_{1}$ p
 	\includegraphics[]{Chap2/C1C1-llvvN1N1-slsnu}	
 \caption[Feynman diagram of slepton-mediated chargino decay]{Electroweak chargino pair production in proton-proton collisions with intermediate slepton in the decay process.}\label{fig:EWchargino}
 \end{figure}  
-
-In this thesis three different patterns of mass-splitting between the chargino and the neutralino will be considered. Denoted by the pair of numbers assigned to the masses (in GeV) of the chargino and the neutralino respectively, they are 600-100, 400-200, and 200-150 signal models. The choice for these signals is motivated by the fact that they are not covered by the exclusion limits shown in Fig. \ref{fig:EWchargino} and their variety in terms of mass splitting.
+\newpage
+In this thesis three different patterns of mass-splitting between the chargino and the neutralino will be considered. Denoted by the pair of numbers assigned to the masses in GeV of the chargino and the neutralino respectively, they are 600-100, 400-200, and 200-150 signal models. The choice for these signals is motivated by the fact that they are not covered by the exclusion limits shown in Fig. \ref{fig:EWchargino} and their variety in terms of mass splitting.
 For all of them the mass of the intermediate slepton is set to be $m_{\bar{\ell}} = 0.5(m_{\tilde{\chi}_1^{\pm}}+m_{\tilde{\chi}_1^{0}})$. 
 
 The cross-section of the investigated production process depends on the mass of the chargino - lighter ones are more likely to be produced and therefore have a larger cross-sections. Fig. \ref{fig:xsec} shows the distribution of the theoretical cross sections depending on the mass of the chargino. For the models used in this thesis the cross sections are 902.569($\pm$53.741) \invfb \, for the 200 GeV chargino, 58.631 ($\pm$4.728)  \invfb \, for the 400 GeV, and 9.499($\pm$0.912) \invfb \, for the 600 GeV one.
@@ -88,7 +88,7 @@ A serious hindrance in LHC analyses is the phenomenon of ``pileup".  Among the c
 \section{Event selection and $b$-tagging}
 
 Event reconstruction is the process of turning raw data into manageable format that includes quantities needed in physics analysis. An event has to pass certain identification criteria to be chosen for reconstruction. Correct identification of different physics objects at LHC includes a large number of dedicated algorithms which are not presented in this thesis, but are available elsewhere \citep{Aad:2016tuk}. 
-However, in this section a very general outline of the selection procedure for reactions that result in two leptonic decays will be given. All ``signal" objects have to pass a set of criteria to obtain a high quality sample with minimum possible contamination.
+However, in this section a very general outline of the selection procedure for reactions that result in two leptonic decays will be given. All ``signal" objects must have passed a set of criteria to obtain a high quality sample with minimum possible contamination.
 
 Signal electrons are required to have $|\eta|<2.47$ and transverse momentum $p_{T}>10$ GeV. These are inferred from the calibrated  energy deposits in the EmCal and must have a matching ID track. Signal muons are reconstructed using information from MS and ID tracks and are required to have   $|\eta|<2.5$ and $p_{T}>10$ GeV. Jets are reconstructed using information from calorimeters and are divided into ``central" and ``forward" categories. Central jets must have $|\eta|<2.4$ and $p_{T}>20$ GeV. Forward jets are those with $2.4<|\eta|<4.5$ and $p_{T}>30$ GeV. 
 
@@ -115,7 +115,7 @@ where $\Delta\phi(E_{\text T}^{\text {miss}},\ell/j)$ is the azimuthal angle bet
 \item[]$\bm{m_{\ell \ell}}$ The invariant mass of the two leptons.
 \end{itemize}
 
-Another derived event variable is the so-called ``stransverse mass"  $m_{\text {T2}}$ which was introduced as a way to infer information about undetected particles \citep{Lester:1999tx,Barr:2003rg}. Along with that, it is also proved useful in suppressing backgrounds. It is used to bound the masses of a pair of supersymmetric particles each of them decaying into one visible and one invisible particle. It is a function of the momenta of two visible particles and the missing transverse momentum of an event. Its abbreviated mathematical description is as follows
+Another derived event variable is the so-called ``stransverse mass"  $m_{\text {T2}}$ which was introduced as a way to infer information about undetected particles \citep{Lester:1999tx,Barr:2003rg}. Along with that, it is also proved useful in suppressing backgrounds. It is used to bound the masses of a pair of supersymmetric particles, each of them decaying into one visible and one invisible particle. It is a function of the momenta of two visible particles and the missing transverse momentum of an event. Its abbreviated mathematical description is as follows
 \begin{equation}
 m_{\text{T2}} = \min_{\mathbf{q}_{\text T}}\Big [\max \Big ( m_{\text T} (\mathbf{p}_{\text T}^{\ell 1},\mathbf{q}_{\text T}),m_{\text T}(\mathbf{p}_{\text T}^{\ell 2},\mathbf{p}_{\text T}^{\text{miss}}-\mathbf{q}_{\text T}) \Big ) \Big ] ,
 \end{equation}
@@ -124,11 +124,11 @@ where $\mathbf{p}_{\text T}^{\ell 1}$ and $\mathbf{p}_{\text T}^{\ell 2}$ are th
 m_{\text T}(\mathbf{p}_{\text T},\mathbf{q}_{\text T}) = \sqrt{2(p_{\text T}q_{\text T} - \mathbf{p}_{\text T} \cdot \mathbf{q}_{\text T})}.
 \end{equation}
 
-The $m_{\text{T2}}$ has an upper end at the $W$ mass for SM $t\bar{t}$ and $WW$ events, where the missing momentum originates from neutrinos. In case with signal events, where the LSP contributes to $ \mathbf{p}_{\text T}^{\text{miss}}$, the $m_{\text{T2}}$ endpoint is correlated to the mass difference between the chargino and the lightest neutralino. $m_{\text{T2}}$ is more sensitive to large mass splittings as its distribution then extends significantly beyond the distributions of $t\bar{t}$ and $WW$ events. Its performance decreases for signals with small mass splittings.  
+The $m_{\text{T2}}$ has an upper end at the $W$ mass for SM $t\bar{t}$ and $WW$ events, where the missing momentum originates from neutrinos. In cases with signal events, where the LSP contributes to $ \mathbf{p}_{\text T}^{\text{miss}}$, the $m_{\text{T2}}$ endpoint is correlated to the mass difference between the chargino and the lightest neutralino. $m_{\text{T2}}$ is more sensitive to large mass splittings as its distribution then extends significantly beyond the distributions of $t\bar{t}$ and $WW$ events. Its performance decreases for signals with small mass splittings.  
 
 \section{Cut-and-count approach and test statistics}
 \label{subsec:stat}
-As discussed previously, a good signal region retains as many signal events as possible while at the same time cutting off background events. The way to suppress the background is to use successive cuts. The cuts are based on determining physical quantities that are able to discriminate between signal and background. The choice for a single cut is motivated both by theoretical considerations and the shapes of the MC signal and background distributions. 
+As discussed previously, a good signal region retains as many signal events as possible while at the same time cutting out background events. The way to suppress the background is to use successive cuts. The cuts are based on determining physical quantities that are able to discriminate between signal and background. The choice for a single cut is motivated both by theoretical considerations and the shapes of the MC signal and background distributions. 
 
 To optimize a cut or a set of cuts a metric that shows their discriminating power is needed. The numerical expression of how well a cut performs is given by a score function and its result will be referred to as ``significance". The score function is constructed in the following way.
 The total number of events in a particular selection is $N$, and it is the sum of $S$ and $B$. The latter two refer to the number of signal and background events respectively. This gives the following expression
@@ -149,7 +149,7 @@ This determines the number of standard deviations away from the 0 of the signal.
 \begin{equation}
 \frac{S}{\sigma(S)}\simeq \frac{S}{\sqrt{B}}.
 \end{equation} 
-
+\hbox{}
 The process of scientific discovery relies predominantly on using statistical methods to justify new discoveries and safeguard against false ones. It is especially important in HEP as it operates on quantum level where almost everything is described using probabilistic arguments (a particle's wave function being the most obvious example).
   
 Any potential discovery in HEP must comply with stringent requirements posed by statistical inference. If some signal has a mean that is away from the mean of the background-only sample by three standard deviations (3$\sigma$), it is referred to as ``evidence". If it is a 5$\sigma$ event then it is claimed as a discovery. To put this into perspective, the chance of a 5$\sigma$ event being just random fluctuation is around 1 in 3.5 million. 
@@ -158,7 +158,7 @@ The expression $S/\sqrt{B}$ thus is a rough estimate of the number of standard d
 A very important point about the $S/\sqrt{B}$ is that it grows with the increase in luminosity $\mathcal{L}$ at the rate of $\sqrt{\mathcal{L}}$. This can be used in extrapolating its values for higher projected luminosities that are going to be achieved in the 13 TeV run-II at the LHC.
 
 \section{Computational tools}
-Most of the HEP analyses are performed with ROOT framework which was developed at CERN specifically for this purpose \citep{root}. It is a multi-purpose package that provides tools for big data processing, statistical analysis, visualisation and storage. It is written in C++ programming language, but also provides integration with other languages such as Python, Ruby, R, etc.  ROOT is especially convenient because it provides constructors and methods created specifically for the LHC geometry and the type of analyses it entails. All the computational manipulations and visualisations were performed in ROOT using applications written in C++ and Python. 
+Most of the HEP analyses are performed with ROOT framework which was developed at CERN specifically for this purpose \citep{root}. It is a multi-purpose package that provides tools for big data processing, statistical analysis, visualisation, and storage. It is written in C++ programming language, but also provides integration with other languages such as Python, Ruby, R, etc.  ROOT is especially convenient because it provides constructors and methods created specifically for the LHC geometry and the type of analyses it entails. All the computational manipulations and visualisations were performed in ROOT using applications written in C++ and Python. 
 
 
 
