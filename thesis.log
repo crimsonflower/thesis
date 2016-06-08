@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.22)  8 JUN 2016 17:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.22)  8 JUN 2016 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -742,12 +742,12 @@ LaTeX Info: Redefining \nameref on input line 105.
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 112.
+LaTeX Font Info:    Try loading font information for U+msa on input line 113.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 112.
+LaTeX Font Info:    Try loading font information for U+msb on input line 113.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -757,12 +757,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [2] (./Abstract/Abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 151--2
-
- []
-
-) [3]
+ [2] (./Abstract/Abstract.tex) [3]
 CHAPTER I.
 
 Package hyperref Warning: bookmark level for unknown chap defaults to 0.
@@ -1285,9 +1280,9 @@ Graphic file (type pdf)
 <use Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_80-eps-converted-to.pdf>
 Package pdftex.def Info: Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_80-ep
 s-converted-to.pdf used on input line 211.
-(pdftex.def)             Requested size: 239.03139pt x 206.57033pt.
+(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
 
-Overfull \hbox (22.22139pt too wide) in paragraph at lines 211--212
+Overfull \hbox (10.83647pt too wide) in paragraph at lines 211--212
 [][] 
  []
 
@@ -1313,9 +1308,9 @@ File: Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_100-eps-converted-to.pdf
 <use Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_100-eps-converted-to.pdf>
 Package pdftex.def Info: Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_100-e
 ps-converted-to.pdf used on input line 216.
-(pdftex.def)             Requested size: 239.03139pt x 206.57033pt.
+(pdftex.def)             Requested size: 227.64647pt x 196.7315pt.
 
-Overfull \hbox (22.22139pt too wide) in paragraph at lines 216--217
+Overfull \hbox (10.83647pt too wide) in paragraph at lines 216--217
 [][] 
  []
 
@@ -1339,7 +1334,7 @@ CHAPTER VI.
 ]
 APPENDIX A.
 Package hyperref Info: bookmark level for unknown appendix defaults to 0 on inp
-ut line 188.
+ut line 189.
 (./Appendices/Triggers.tex
 <Appendices/Et_e12_lhloose_L1EM10VH.png, id=708, 798.985pt x 574.145pt>
 File: Appendices/Et_e12_lhloose_L1EM10VH.png Graphic file (type png)
@@ -1395,24 +1390,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--169
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
  [37]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 209.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 209.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: E58B31C690AECDC09DA1128C7781444B;1947.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 209.
  ) 
 Here is how much of TeX's memory you used:
  15438 strings out of 494985
  271644 string characters out of 6180356
- 347662 words of memory out of 5000000
+ 347682 words of memory out of 5000000
  18203 multiletter control sequences out of 15000+600000
  22473 words of font info for 83 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -1436,7 +1431,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (40 pages, 9000353 bytes).
+Output written on thesis.pdf (40 pages, 9001808 bytes).
 PDF statistics:
  841 PDF objects out of 1000 (max. 8388607)
  658 compressed objects within 7 object streams
