@@ -17,7 +17,7 @@
 \contentsline {chap}{\numberline {\hbox { }\hfill \bf III.\hspace {5pt}}{\bf Search for supersymmetry at the LHC}}{11}{chapter.3}
 \hbox { }
 \contentsline {section}{\numberline {3.1}Introduction}{11}{section.3.1}
-\contentsline {section}{\numberline {3.2}General search methods}{14}{section.3.2}
+\contentsline {section}{\numberline {3.2}General search methods}{15}{section.3.2}
 \contentsline {section}{\numberline {3.3}Overview of background processes}{16}{section.3.3}
 \contentsline {section}{\numberline {3.4}Event selection and $b$-tagging}{17}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Event variables used in the analysis}{18}{subsection.3.4.1}
@@ -31,4 +31,9 @@
 \contentsline {subsection}{\numberline {4.2.1}Veto on all jets.}{23}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Veto on $b$-tagged jets.}{24}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Cuts in the same-flavour channel}{25}{subsection.4.2.3}
-\contentsline {chapter}{APPENDICES}{27}{table.caption.16}
+\contentsline {subsection}{\numberline {4.2.4}Cuts in the different-flavour channel}{27}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Further investigation of the 200-150 signal}{28}{subsection.4.2.5}
+\hbox { }
+\contentsline {chap}{\numberline {\hbox { }\hfill \bf V.\hspace {5pt}}{\bf Discussion and conclusion}}{30}{chapter.5}
+\hbox { }
+\contentsline {chapter}{APPENDICES}{32}{chapter.5}

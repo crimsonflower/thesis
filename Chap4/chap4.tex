@@ -38,6 +38,8 @@ The histogram for DF channel (Fig. \ref{fig:DF_total_mll}) shows that there is a
 
 The dotted lines are the shapes of signal distributions and they are in accordance with the mass of the chargino pair. The blue line represents 200-150 mass splitting, so its events are concentrated in the lower mass regions. The pink and green lines represent 400-200 and 600-100 signals respectively, and also are distributed according to this logic. Overall, there is a good agreement between MC background simulations and the 2015 data. 
 
+The total error of the background distribution, shown as hashed lines in the histograms, is calculated using simple poissonian statistics. Full error is a composite estimate that includes all sources of error and their interdependence, it entails a complex analysis that is beyond the scope of this thesis. 
+
 \newpage
 \section{Applying cuts}
 \subsection{Veto on all jets.}
@@ -108,7 +110,7 @@ The $b$-jet veto leads to a decrease in significance for SF channel compared to 
         \includegraphics[scale=0.4]{Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_signal} 
         \end{subfigure}
         \captionsetup{width=0.8\textwidth}
-\caption{The \mttwo \, distributions for SF and DF channels, with $Z$ veto and no $b$-jets.}	
+\caption{The \mttwo \, distributions for the SF and DF channels, with $Z$ veto and no $b$-jets.}	
         \label{fig:SF_0bjets_mz}
 \end{figure}
 \begin{table}[H]
@@ -128,20 +130,20 @@ $>100$   & \multicolumn{1}{l|}{2.06}               & \multicolumn{1}{l|}{0.85}  
 $>120$    & \multicolumn{1}{l|}{2.76}               & \multicolumn{1}{l|}{1.59}               & \multicolumn{1}{l|}{4.79}               & \multicolumn{1}{l|}{2.75}               & \multicolumn{1}{l|}{6.77}               & \multicolumn{1}{l|}{3.88}               \\ \hline
 $>140$    & \multicolumn{1}{l|}{2.07}               & \multicolumn{1}{l|}{1.98}               & \multicolumn{1}{l|}{3.59}               & \multicolumn{1}{l|}{3.43}               & \multicolumn{1}{l|}{5.08}               & \multicolumn{1}{l|}{4.85}               \\ \hline
 \end{tabular}
-\caption{Significance values for the SF and DF channels with cuts on \mttwo \, at increasing integrated luminosities. With $Z$ veto (SF only) and no $b$-jets. }
+\caption{Significance values for \mttwo \, distributions in the SF and DF channels with cuts on \mttwo \, at increasing integrated luminosities. With $Z$ veto (SF only) and no $b$-jets. }
 \label{tab:SF_score_0bjets}
 \end{table}
 
 \subsection{Cuts in the same-flavour channel}
 Further analysis in the SF channel included already mentioned $Z$ veto and ``no jets" requirement. Different cuts were tried, including limiting jet multiplicity, imposing cuts on 
-$\mathbf{p}^{jet}_{\text{T}}$, limiting $\mathbf{p}_{\text{T}}$ of the leading jet, etc. Ultimately, most probably due to the high amount of pileup they were not very efficient. One cut that delivered the best significance values at \lumi= 19.2 \invfb \, was requiring \metrel$>$80 GeV and \mttwo$>$100 GeV (see Fig. \ref{fig:SF_metrel}). This yielded a significance of 4.05 for the 400-200 signal. Requiring \mttwo$>$120 GeV gave significance of 1.50 for the 600-100 signal, the same result as with just imposing the \mttwo$>$120 cut without the \metrel \, cut (see Tab. \ref{tab:SF_score}). Tab. \ref{tab:SF_80} shows the significance values for these cuts.
+$\mathbf{p}^{\text{jet}}_{\text{T}}$, limiting $\mathbf{p}_{\text{T}}$ of the leading jet, etc. Ultimately, most probably due to the high amount of pileup they were not very efficient. One cut that delivered the best significance values at \lumi= 19.2 \invfb \, was requiring \metrel$>$80 GeV and \mttwo$>$100 GeV (see Fig. \ref{fig:SF_metrel}). This yielded a significance of 4.05 for the 400-200 signal. Requiring \mttwo$>$120 GeV gave significance of 1.50 for the 600-100 signal, the same result as with just imposing the \mttwo$>$120 cut without the \metrel \, cut (see Tab. \ref{tab:SF_score}). Tab. \ref{tab:SF_80} shows the significance values for these cuts.
 
 \begin{figure}[H]
-\centering	
-        \includegraphics[scale=0.4]{Chap4/SF_DileptonMt2_13TeV_0jets_mz_MetRel>80_signal}         
-        \captionsetup{width=0.8\textwidth}
-\caption{The \mttwo \, distribution for the SF channel, with $Z$ veto,no jets and \metrel$>$80 GeV.}	
-        \label{fig:SF_metrel}
+ 	\centering
+        \includegraphics[scale=0.4]{Chap4/SF_DileptonMt2_13TeV_0jets_mz_MetRel>80_signal} 
+	\captionsetup{width=0.8\textwidth}
+	\caption{The \mttwo \, distribution for the SF channel, with $Z$ veto,no jets and \metrel$>$80 GeV.}
+     \label{fig:SF_metrel}
 \end{figure}
 \begin{table}[H]
 \centering
@@ -157,4 +159,92 @@ $>120$  & \multicolumn{1}{l|}{1.27}               & \multicolumn{1}{l|}{0.61}   
 \caption{Significance values for the SF channel with cut on \mttwo \, at increasing integrated luminosities. With $Z$ veto, no jets, and \metrel$>$80 GeV. }
 \label{tab:SF_80}
 \end{table}
+
+Overall, significance in the SF channel was low for the two signals that passed the cuts. However, higher luminosities are likely to lead to better sensitivity values for both the 400-200 and 600-100 signal models. There are no significance values for the 200-150 model, although this model has the highest cross-section value. It is in the region which is overwhelmed with background and its suppression is very challenging. One way to deal with this will be discussed in the subsection \ref{subsec:200model}.
+
+\newpage
+\subsection{Cuts in the different-flavour channel}
+
+The electron-muon signal models overall provide better significance results, and good significance has already been obtained in the simple ``no $b$-jets" plus \mttwo \, cut (see Tab. \ref{tab:SF_score_0bjets}). However, further investigation was made to see if there is any improvement over those results.
+For this channel the $Z$ veto does not apply and only $b$-jets are vetoed.
+
+Higher values for sensitivity for the 400-200 and 600-100 signals were obtained with the following cuts - a)\metrel$>$40 GeV and \mttwo$>$120 GeV and b)\metrel$>$80 GeV and \mttwo$>$120 GeV. The resulting histograms are in Fig. \ref{fig:DF_mt2} and the sensitivities can be seen in the accompanying Table \ref{tab:DF_significances}.
+
+\begin{figure}[h!]
+\captionsetup{width=0.8\textwidth}	   
+	\begin{subfigure}[t]{0.5\textwidth}
+		\subcaption{No $b$-jets, \metrel$>$40 GeV} 
+		\label{fig:DF_mt2_metrel40}
+        \includegraphics[scale=0.4]{Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_MetRel>40_signal} 
+        \end{subfigure} 
+     \begin{subfigure}[t]{0.5\textwidth}
+		\subcaption{No $b$-jets, \metrel$>$80 GeV} 
+		\label{fig:DF_mt2_metrel80}
+        \includegraphics[scale=0.4]{Chap4/Emu_DileptonMt2_13TeV_0bjets_mz_MetRel>80_signal} 
+        \end{subfigure}      
+\caption{The \mttwo \, distributions for the DF channel with $b$-jet veto and different cuts on \metrel.}	
+        \label{fig:DF_mt2}
+\end{figure}
+\begin{table}[H]
+\centering
+\captionsetup{width=0.8\textwidth}
+\begin{tabular}{|l|llllll}
+\hline
+Signal models     & \multicolumn{1}{l|}{400-200} & \multicolumn{1}{l|}{600-100} & \multicolumn{1}{l|}{400-200} & \multicolumn{1}{l|}{600-100} & \multicolumn{1}{l|}{400-200} & \multicolumn{1}{l|}{600-100} \\ \hline
+\hspace{5mm} \lumi     & \multicolumn{2}{c|}{3.2 \invfb}                                                     & \multicolumn{2}{c|}{9.6 \invfb}                                                     & \multicolumn{2}{c|}{19.2 \invfb}                                                    \\ \hline 
+ Cuts            & \multicolumn{6}{c|}{\textbf{DF channel}}                                                                                                                                                                                                                   \\ \hline
+\footnotesize{\metrel$>$40 GeV, \mttwo$>$120 GeV} & \multicolumn{1}{l|}{2.78}               & \multicolumn{1}{l|}{1.59}               & \multicolumn{1}{l|}{4.81}               & \multicolumn{1}{l|}{2.76}               & \multicolumn{1}{l|}{6.80}               & \multicolumn{1}{l|}{3.90}               \\ \hline
+\footnotesize{\metrel$>$80 GeV, \mttwo$>$120 GeV} & \multicolumn{1}{l|}{2.80}               & \multicolumn{1}{l|}{1.61}               & \multicolumn{1}{l|}{4.85}               & \multicolumn{1}{l|}{2.78}               & \multicolumn{1}{l|}{6.86}               & \multicolumn{1}{l|}{3.93}                \\ \hline               
+\end{tabular}
+\caption{DF channel significances with cuts on \mttwo \, and \metrel \, at increasing integrated luminosities. $b$-jets are vetoed.}
+\label{tab:DF_significances}
+\end{table}
+\newpage
+The DF channel provides better sensitivity that the SF channel with relatively few cuts. So if the evidence of SUSY lies in this channel it should be relatively easy to confirm. However, this also requires higher luminosity. The 200-150 model does not produce any significance in this channel as well, again due to being in a background-dominated region. The next subsection offers one way this issue can be addressed.
+
+\subsection{Further investigation of the 200-150 signal}
+\label{subsec:200model}
+
+So far, the 200-150 signal proved to be hard to discern from the background. However, there is a method that can potentially yield some sensitivity for this model. It is based on the assumption that the chargino pair creation recoils against a single leading jet which gives additional momentum to the neutralinos in the final state \citep{atlas2015search}. Thus the angle $\Delta\phi(E^{\text{miss}}_{\text{T}},\text{jet})$ between \met \, and the leading jet can be exploited as a discriminating variable. The histograms in Figure \ref{fig:DF_dPhi} show this relation for the DF channel. 
+
+\begin{figure}[h!]
+\captionsetup{width=0.8\textwidth}	   
+	\begin{subfigure}[t]{0.5\textwidth}
+		\subcaption{One jet, \met$>$80 GeV} 
+		\label{fig:DF_dPhi80}
+        \includegraphics[scale=0.4]{Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_80} 
+        \end{subfigure} 
+     \begin{subfigure}[t]{0.5\textwidth}
+		\subcaption{One jet, \met$>$100 GeV} 
+		\label{fig:DF_dPhi100}
+        \includegraphics[scale=0.4]{Chap4/Emu_OneCentralJet_dPhiMetJet_13_TeV_signal_100} 
+        \end{subfigure}      
+\caption{The $\Delta\phi(E^{\text{miss}}_{\text{T}},\text{jet})$ distributions for the DF channel with single jet, \dileptonmass$>$40 GeV and cuts on \met.}	
+        \label{fig:DF_dPhi}
+\end{figure}
+
+The 200-150 signal is concentrated at large values for $\Delta\phi(E^{\text{miss}}_{\text{T}},\text{jet})$ and thereby in agreement with the recoil assumption. However, in these regions the significance values are not high, as can be seen in the Table \ref{tab:DF_jet}.
+\begin{table}[!tH]
+\centering
+\captionsetup{width=0.8\textwidth}
+\begin{tabular}{|l|l|l|l|}
+\hline
+    Signal    & \multicolumn{3}{c|}{200-150}       \\ \hline
+\hspace{5mm}\lumi   & 3.2\invfb & 9.6\invfb & 19.2\invfb \\ \hline
+\met$>$80 GeV,$\Delta\phi(E^{\text{miss}}_{\text{T}},\text{jet})>2.7$ & 0.60      & 1.04      & 1.47       \\ \hline
+\met$>$100 GeV,$\Delta\phi(E^{\text{miss}}_{\text{T}},\text{jet})>2.9$    & 0.40      & 0.70      & 0.99       \\ \hline
+\end{tabular}
+\caption{Significances for the $\Delta\phi(E^{\text{miss}}_{\text{T}},\text{jet})$ distributions for the DF channel with single jet. }
+\label{tab:DF_jet}
+\end{table}
+ 
+The best significance value for this search method was 1.47 at 19.2 \invfb \, for the \met$>$80 GeV,$\Delta\phi(E^{\text{miss}}_{\text{T}},\text{jet})>2.7$ combined cut. It is still quite small and does not satisfy statistical criteria for good sensitivity. However, there is a clear dependence of a smaller mass signal on the recoil angle with the leading jet. This can be a starting point for other analyses that can take into account other variables as well. 
+
+
+
+
+
+
+
+
 
